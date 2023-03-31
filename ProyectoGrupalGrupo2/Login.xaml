@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="Login" Height="733" Width="1203" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+        Title="Login" Height="733" Width="1197" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
     <Grid>
         <Image HorizontalAlignment="Center" Height="708" VerticalAlignment="Center" Width="1194" Source="/login2.jpg" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Center" Height="708" Stroke="#FF4B215B" VerticalAlignment="Center" Width="1194" Fill="#FF4B215B" Opacity="0.35"/>
