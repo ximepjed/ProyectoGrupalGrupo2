@@ -34,11 +34,11 @@
         <Label Content="Usuario" HorizontalAlignment="Left" Height="35" Margin="828,348,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="18" Foreground="White" FontWeight="Medium"/>
         <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="902,316,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Height="35" Margin="828,407,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="18" Foreground="White" FontWeight="Medium"/>
-        <Button Content="Ingresar" HorizontalAlignment="Left" Height="37" Margin="896,516,0,0" VerticalAlignment="Top" Width="138" Background="#FFF9E9FF" Foreground="#FF3A1A46" Click="Button_Click" FontSize="20" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" BorderBrush="{x:Null}" UseLayoutRounding="True"/>
+        <Button Content="Ingresar" HorizontalAlignment="Left" Height="37" Margin="896,516,0,0" VerticalAlignment="Top" Width="138" Background="#FFF9E9FF" Foreground="#FF3A1A46" ButtonBase.Click="Ingreso_inicio" FontSize="20" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" BorderBrush="{x:Null}" UseLayoutRounding="True"/>
 
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" Click="Button_Click" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FF3A1A46" BorderBrush="White" Foreground="#FF290D32"/>
+        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FF0078D7"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FF0078D7" BorderBrush="White" Foreground="#FF290D32"/>
 
 
     </Grid>

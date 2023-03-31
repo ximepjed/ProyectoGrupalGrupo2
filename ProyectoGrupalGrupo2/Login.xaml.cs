@@ -24,6 +24,13 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
+        private void Ingreso_inicio(object sender, RoutedEventArgs e)
+        {
+            Inicio inicio = new Inicio();
+
+            inicio.Owner = this;
+            inicio.Show();
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
