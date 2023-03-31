@@ -25,9 +25,12 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Ingresar_login(object sender, RoutedEventArgs e)
         {
+            Login login = new Login();
 
+            login.Owner= this;
+            login.Show();
         }
     }
 }
