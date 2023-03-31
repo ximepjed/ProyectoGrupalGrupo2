@@ -36,8 +36,8 @@
         <Label Content="Contraseña" HorizontalAlignment="Left" Height="35" Margin="828,407,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="18" Foreground="White" FontWeight="Medium"/>
         <Button Content="Ingresar" HorizontalAlignment="Left" Height="37" Margin="896,516,0,0" VerticalAlignment="Top" Width="138" Background="#FFF9E9FF" Foreground="#FF3A1A46" Click="Button_Click" FontSize="20" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" BorderBrush="{x:Null}" UseLayoutRounding="True"/>
         <TextBox HorizontalAlignment="Left" Margin="832,383,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="254" Height="24" TextChanged="TextBox_TextChanged" SelectionBrush="#FF6C3680"/>
-        <TextBox HorizontalAlignment="Left" Margin="832,442,0,0" TextWrapping="Wrap" Text="Digite su contraseña..." VerticalAlignment="Top" Width="254" Height="24" TextChanged="TextBox_TextChanged_1"/>
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" Click="Button_Click" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254"/>
 
 
     </Grid>
