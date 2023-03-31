@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="Login" Height="724" Width="1190">
+        Title="Login" Height="730" Width="1200">
     <Grid>
         <Image HorizontalAlignment="Center" Height="708" VerticalAlignment="Center" Width="1194" Source="/login2.jpg" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Center" Height="708" Stroke="#FF4B215B" VerticalAlignment="Center" Width="1194" Fill="#FF4B215B" Opacity="0.35"/>
@@ -37,8 +37,8 @@
         <Button Content="Ingresar" HorizontalAlignment="Left" Height="37" Margin="896,516,0,0" VerticalAlignment="Top" Width="138" Background="#FFF9E9FF" Foreground="#FF3A1A46" ButtonBase.Click="Ingreso_inicio" FontSize="20" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" BorderBrush="{x:Null}" UseLayoutRounding="True"/>
 
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" Click="Button_Click" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FF0078D7"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FF0078D7" BorderBrush="White" Foreground="#FF290D32"/>
+        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FFC080D8" BorderBrush="White"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32"/>
 
 
     </Grid>
