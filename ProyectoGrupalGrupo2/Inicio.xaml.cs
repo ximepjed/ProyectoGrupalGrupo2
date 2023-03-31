@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProyectoGrupalGrupo2
 {
     /// <summary>
-    /// Lógica de interacción para Login.xaml
+    /// Lógica de interacción para Inicio.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class Inicio : Window
     {
-        public Login()
+        public Inicio()
         {
             InitializeComponent();
         }
