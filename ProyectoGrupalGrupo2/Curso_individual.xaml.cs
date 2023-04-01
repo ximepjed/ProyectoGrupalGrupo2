@@ -33,13 +33,15 @@ namespace ProyectoGrupalGrupo2
         private void Button_Nota(object sender, RoutedEventArgs e)
         {
             Notas notas = new Notas();
-            //notas.Owner();
+            notas.Owner=this;
             notas.Show();
         }
 
         private void Button_Asistencia(object sender, RoutedEventArgs e)
         {
-
+            Asistencia asistencia = new Asistencia();
+            asistencia.Owner= this;
+            asistencia.Show();
         }
 
         private void Button_Click_About(object sender, RoutedEventArgs e)
