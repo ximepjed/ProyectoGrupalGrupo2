@@ -31,9 +31,12 @@ namespace ProyectoGrupalGrupo2
             inicio.Owner = this;
             inicio.Show();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Error_Pass(object sender, RoutedEventArgs e)
         {
+            Password_error password_error = new Password_error();
 
+            password_error.Owner = this;
+            password_error.Show();
         }
     }
 }
