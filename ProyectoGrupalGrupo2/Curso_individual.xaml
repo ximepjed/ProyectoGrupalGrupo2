@@ -7,11 +7,7 @@
         mc:Ignorable="d"
         Title="Curso_individual" Height="724" Width="1190" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="89*"/>
-            <RowDefinition Height="619*"/>
-        </Grid.RowDefinitions>
-        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="Black" VerticalAlignment="Top" Width="1190" Grid.RowSpan="2">
+        <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
@@ -24,10 +20,9 @@
                     </LinearGradientBrush.RelativeTransform>
                     <GradientStop Color="#FF2B1235" Offset="0.248"/>
                     <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFA087AB" Offset="0.809"/>
+                    <GradientStop Color="#FFA087AB" Offset="0.857"/>
                     <GradientStop Color="#FFFDFDFD" Offset="1"/>
-                    <GradientStop Color="#FF815794" Offset="0.626"/>
-                    <GradientStop Color="#FFD7CDDB" Offset="0.935"/>
+                    <GradientStop Color="#FF815794" Offset="0.678"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
@@ -36,12 +31,12 @@
                 <ImageBrush ImageSource="/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="675" VerticalAlignment="Top" Width="312" Fill="#FF452552" Margin="10,17,0,0" RadiusX="30" RadiusY="30" Opacity="0.8" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="665" VerticalAlignment="Top" Width="312" Fill="#FF452552" Margin="10,27,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
         <Rectangle HorizontalAlignment="Left" Height="143" Margin="10,17,0,0" VerticalAlignment="Top" Width="312" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" Stroke="White" StrokeDashCap="Round" RadiusX="30" RadiusY="30" Grid.RowSpan="2"/>
-        <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="100,26,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
-        <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="43" Margin="104,70,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
-        <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="104,22,0,0" VerticalAlignment="Top" Width="76" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium" Grid.Row="1"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="23,44,0,0" VerticalAlignment="Top" Width="79" Source="/Logo1.png" Grid.RowSpan="2"/>
+        <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="120,26,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="43" Margin="120,72,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="120,117,0,0" VerticalAlignment="Top" Width="76" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="27,42,0,0" VerticalAlignment="Top" Width="79" Source="/Logo1.png"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="104,21,0,0" Stroke="White" VerticalAlignment="Top" Width="179" Fill="White" RenderTransformOrigin="0.5,1" Grid.Row="1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -52,28 +47,28 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="500" Margin="21,87,0,0" VerticalAlignment="Top" Width="292" Fill="#CC240831" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Label Content="Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="33" Margin="27,104,0,0" VerticalAlignment="Top" Width="280" FontSize="16" Foreground="White" FontWeight="Bold" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="134" Margin="29,145,0,0" VerticalAlignment="Top" Width="278" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1">
+        <Rectangle HorizontalAlignment="Left" Height="500" Margin="21,179,0,0" VerticalAlignment="Top" Width="292" Fill="#CC240831" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Label Content="Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="33" Margin="27,183,0,0" VerticalAlignment="Top" Width="280" FontSize="16" Foreground="White" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="27,221,0,0" VerticalAlignment="Top" Width="278" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="28" Margin="177,256,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="39" Margin="64,301,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="38" Margin="60,357,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="39" Margin="64,538,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Button Content="Volver al Inicio" HorizontalAlignment="Left" Height="39" Margin="64,538,0,0" VerticalAlignment="Top" Width="206" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Grid.Row="1"/>
-        <Image HorizontalAlignment="Left" Height="41" Margin="87,544,0,0" VerticalAlignment="Top" Width="27" Source="/log-out.png" RenderTransformOrigin="0.562,0.156" Grid.Row="1"/>
-        <Button Content="Syllabus" HorizontalAlignment="Left" Height="39" Margin="60,301,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14" Grid.Row="1"/>
-        <Button Content="Roster" HorizontalAlignment="Left" Height="40" Margin="61,357,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14" Grid.Row="1"/>
+        <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="28" Margin="182,326,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White" RenderTransformOrigin="0.537,2.073"/>
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="61,377,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,454,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,624,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Button Content="Volver al Inicio" HorizontalAlignment="Left" Height="39" Margin="64,624,0,0" VerticalAlignment="Top" Width="206" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
+        <Image HorizontalAlignment="Left" Height="41" Margin="87,630,0,0" VerticalAlignment="Top" Width="27" Source="/log-out.png" RenderTransformOrigin="0.562,0.156"/>
+        <Button Content="Syllabus" HorizontalAlignment="Left" Height="39" Margin="59,377,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
+        <Button Content="Roster" HorizontalAlignment="Left" Height="40" Margin="60,452,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
         <Label Content="                      Curso&#xD;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="123" Margin="399,7,0,0" VerticalAlignment="Top" Width="710" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="568" VerticalAlignment="Top" Width="804" Fill="#FF120517" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.85" Margin="352,38,0,0" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="399,76,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="642,76,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="399,218,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="642,218,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.Row="1"/>
-        <Calendar HorizontalAlignment="Left" Height="169" Margin="934,72,0,0" VerticalAlignment="Top" Width="199" Foreground="#FF2D103A" Grid.Row="1">
+        <Rectangle HorizontalAlignment="Left" Height="568" VerticalAlignment="Top" Width="804" Fill="#FF120517" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.85" Margin="352,124,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="391,156,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="634,149,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="391,298,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="634,298,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Calendar HorizontalAlignment="Left" Height="169" Margin="916,158,0,0" VerticalAlignment="Top" Width="199" Foreground="#FF2D103A">
             <Calendar.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA3AEB9"/>
@@ -91,12 +86,22 @@
                 </LinearGradientBrush>
             </Calendar.Background>
         </Calendar>
-        <Rectangle HorizontalAlignment="Left" Height="40" Margin="916,251,0,0" VerticalAlignment="Top" Width="235" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Grid.Row="1"/>
-        <ListBox HorizontalAlignment="Left" Height="144" Margin="922,305,0,0" VerticalAlignment="Top" Width="222" Grid.Row="1">
+        <Rectangle HorizontalAlignment="Left" Height="40" Margin="898,339,0,0" VerticalAlignment="Top" Width="235" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <ListBox HorizontalAlignment="Left" Height="144" Margin="904,408,0,0" VerticalAlignment="Top" Width="222">
             <Button Content="Semana 1" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
             <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
         </ListBox>
         <Rectangle HorizontalAlignment="Left" Height="2" Margin="391,66,0,0" Stroke="White" VerticalAlignment="Top" Width="726" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="120,117,0,0" Stroke="White" VerticalAlignment="Top" Width="178" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
