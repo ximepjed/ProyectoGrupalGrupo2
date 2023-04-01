@@ -55,55 +55,43 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="28" Margin="182,326,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White" RenderTransformOrigin="0.537,2.073"/>
-        <Rectangle HorizontalAlignment="Left" Height="39" Margin="61,377,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,454,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,624,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Button Content="Volver al Inicio" HorizontalAlignment="Left" Height="39" Margin="64,624,0,0" VerticalAlignment="Top" Width="206" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="61,377,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,434,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,624,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Volver al Inicio" HorizontalAlignment="Left" Height="39" Margin="63,624,0,0" VerticalAlignment="Top" Width="206" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
         <Image HorizontalAlignment="Left" Height="41" Margin="87,630,0,0" VerticalAlignment="Top" Width="27" Source="/log-out.png" RenderTransformOrigin="0.562,0.156"/>
-        <Button Content="Syllabus" HorizontalAlignment="Left" Height="39" Margin="59,377,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
-        <Button Content="Roster" HorizontalAlignment="Left" Height="40" Margin="60,452,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
+        <Button Content="Sobre el curso" HorizontalAlignment="Left" Height="39" Margin="60,377,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
+        <Button Content="Roster" HorizontalAlignment="Left" Height="40" Margin="60,433,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14"/>
         <Label Content="                      Curso&#xD;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="123" Margin="399,7,0,0" VerticalAlignment="Top" Width="710" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="568" VerticalAlignment="Top" Width="804" Fill="#FF120517" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.85" Margin="352,124,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="391,156,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="634,149,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="391,298,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="634,298,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Calendar HorizontalAlignment="Left" Height="169" Margin="916,158,0,0" VerticalAlignment="Top" Width="199" Foreground="#FF2D103A">
-            <Calendar.BorderBrush>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFA3AEB9"/>
-                    <GradientStop Color="#FF8399A9"/>
-                    <GradientStop Color="#FF2D103A"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </Calendar.BorderBrush>
+        <Calendar HorizontalAlignment="Left" Height="169" Margin="920,198,0,0" VerticalAlignment="Top" Width="199" Foreground="Black" BorderBrush="Black">
             <Calendar.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE4EAF0"/>
                     <GradientStop Color="#FFECF0F4" Offset="0.16"/>
                     <GradientStop Color="#FFFCFCFD" Offset="0.16"/>
-                    <GradientStop Color="#FFF9E9FF" Offset="1"/>
+                    <GradientStop Color="#FF4E2F5B" Offset="1"/>
+                    <GradientStop Color="#FFF9E9FF" Offset="0.774"/>
+                    <GradientStop Color="#FF8C7397" Offset="1"/>
                 </LinearGradientBrush>
             </Calendar.Background>
         </Calendar>
-        <Rectangle HorizontalAlignment="Left" Height="40" Margin="898,339,0,0" VerticalAlignment="Top" Width="235" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
-        <ListBox HorizontalAlignment="Left" Height="46" Margin="890,383,0,0" VerticalAlignment="Top" Width="252">
-            <Button Content="Semana 1" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
-        </ListBox>
+        <Rectangle HorizontalAlignment="Left" Height="42" Margin="391,340,0,0" VerticalAlignment="Top" Width="467" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF4E2F5B"/>
+                    <GradientStop Color="#FFF9E9FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
         <Rectangle HorizontalAlignment="Left" Height="2" Margin="391,66,0,0" Stroke="White" VerticalAlignment="Top" Width="726" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -124,10 +112,34 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ComboBox HorizontalAlignment="Left" Margin="732,531,0,0" VerticalAlignment="Top" Width="244" Height="50">
+        <ComboBox HorizontalAlignment="Left" Margin="566,346,0,0" VerticalAlignment="Top" Width="250" Height="31" BorderBrush="{x:Null}" Background="White">
             <Button Content="Semana 1" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
             <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 3" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 4" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 5" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 6" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 7" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 8" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 9" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 10" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 11" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 12" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 13" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 14" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 15" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
         </ComboBox>
+        <Label Content="Semanas" HorizontalAlignment="Left" Height="32" Margin="422,343,0,0" VerticalAlignment="Top" Width="106" FontSize="18" Foreground="#FF130618" RenderTransformOrigin="0.537,2.073"/>
+        <Rectangle HorizontalAlignment="Left" Height="61" Margin="391,257,0,0" VerticalAlignment="Top" Width="208" Fill="#FF845E94" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="61" Margin="650,158,0,0" VerticalAlignment="Top" Width="208" Fill="#FF845E94" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="61" Margin="392,158,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Button Content="Tareas" HorizontalAlignment="Left" Height="61" Margin="392,257,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FFF9E9FF" BorderBrush="{x:Null}" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="Nota Final" HorizontalAlignment="Left" Height="61" Margin="392,158,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="Asistencia" HorizontalAlignment="Left" Height="59" Margin="650,160,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FFF9E9FF" BorderBrush="{x:Null}" FontSize="20" Click="Button_Click_1"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="930,158,0,0" VerticalAlignment="Top" Width="179" Fill="#FF4E2F5B" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Label Content="Calendario" HorizontalAlignment="Left" Height="28" Margin="971,161,0,0" VerticalAlignment="Top" Width="97" FontSize="16" Foreground="#FFF9E9FF" RenderTransformOrigin="0.537,2.073" FontWeight="Bold" Background="{x:Null}"/>
+        <Rectangle HorizontalAlignment="Left" Height="61" Margin="650,252,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Button Content="Syllabus" HorizontalAlignment="Left" Height="61" Margin="651,252,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="20" Click="Button_Click_1"/>
 
 
 
