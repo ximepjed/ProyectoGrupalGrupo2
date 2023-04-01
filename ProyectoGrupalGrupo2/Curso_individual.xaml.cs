@@ -68,5 +68,20 @@ namespace ProyectoGrupalGrupo2
         {
 
         }
+
+        private void Button_Nota(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Asistencia(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_tTTarea(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
