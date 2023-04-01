@@ -30,8 +30,6 @@ namespace ProyectoGrupalGrupo2
             Curso_individual curso_individual = new Curso_individual();
             curso_individual.Owner = this;
             curso_individual.Show();
-
-            this.Close();
         }
         private void Clase_boton(object sender, RoutedEventArgs e)
         {
@@ -39,8 +37,6 @@ namespace ProyectoGrupalGrupo2
             Curso_individual curso_individual = new Curso_individual();
             curso_individual.Owner = this;
             curso_individual.Show();
-
-            this.Close();
         }
         private void Salir_total(object sender, RoutedEventArgs e)
         {
@@ -53,19 +49,11 @@ namespace ProyectoGrupalGrupo2
             MessageBox.Show("Cristhian García Contreras, cgarciac534@ulacit.ed.cr");
         }
 
-        private void Button_Cerrar(object sender, RoutedEventArgs e)
-        {
-            System.Windows.Application.Current.Shutdown();
-        }
-
+ 
   
         private void Button_SignOut(object sender, RoutedEventArgs e)
         {
-            Login login = new Login();
-            login.Owner= this;
-            login.Show();
-
-            this.Close();
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

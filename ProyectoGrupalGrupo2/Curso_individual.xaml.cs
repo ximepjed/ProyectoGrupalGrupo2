@@ -35,8 +35,6 @@ namespace ProyectoGrupalGrupo2
             Notas notas = new Notas();
             notas.Owner=this;
             notas.Show();
-
-            this.Close();
         }
 
         private void Button_Asistencia(object sender, RoutedEventArgs e)
@@ -44,8 +42,6 @@ namespace ProyectoGrupalGrupo2
             Asistencia asistencia = new Asistencia();
             asistencia.Owner= this;
             asistencia.Show();
-
-            this.Close();
         }
 
         private void Button_Click_About(object sender, RoutedEventArgs e)
@@ -66,8 +62,6 @@ namespace ProyectoGrupalGrupo2
             Tareas tareas = new Tareas();
             tareas.Owner=this;
             tareas.Show();
-
-            this.Close();
         }
 
         private void Button_Rooster(object sender, RoutedEventArgs e)
@@ -75,18 +69,12 @@ namespace ProyectoGrupalGrupo2
             //hacer ventana
         }
 
-        private void Button_Inicio(object sender, RoutedEventArgs e)
-        {
-            Inicio inicio = new Inicio();
-            inicio.Owner=this;
-            inicio.Show();
-
-            this.Close();   
-        }
-
+ 
         private void Button_Cerrar(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+
     }
 }

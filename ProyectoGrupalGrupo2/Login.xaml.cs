@@ -30,7 +30,6 @@ namespace ProyectoGrupalGrupo2
 
             inicio.Owner = this;
             inicio.Show();
-            this.Close();
         }
         private void Error_Pass(object sender, RoutedEventArgs e)
         {
