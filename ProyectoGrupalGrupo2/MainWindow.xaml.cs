@@ -31,6 +31,8 @@ namespace ProyectoGrupalGrupo2
 
             login.Owner= this;
             login.Show();
+
+            this.Close();
         }
     }
 }
