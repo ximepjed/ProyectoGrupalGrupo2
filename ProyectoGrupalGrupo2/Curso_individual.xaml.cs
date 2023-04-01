@@ -46,28 +46,32 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_Click_About(object sender, RoutedEventArgs e)
         {
-
+            //pop up box
         }
 
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
-
+            //configurar
         }
 
         private void Button_Tarea(object sender, RoutedEventArgs e)
         {
-
+            Tareas tareas = new Tareas();
+            tareas.Owner=this;
+            tareas.Show();
         }
 
         private void Button_Rooster(object sender, RoutedEventArgs e)
         {
-
+            //hacer ventana
         }
 
         private void Button_Inicio(object sender, RoutedEventArgs e)
         {
-
+            Inicio inicio = new Inicio();
+            inicio.Owner=this;
+            inicio.Show();
         }
     }
 }
