@@ -55,10 +55,10 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="54" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Salir_total" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Button Content="Sing Out" HorizontalAlignment="Left" Height="54" Margin="61,599,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
-        <Rectangle HorizontalAlignment="Left" Height="53" Margin="23,0,0,0" VerticalAlignment="Center" Width="279" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Opacity="0.6"/>
-        <Button Content="Diseño de Aplicaciones de Software&#xA;" HorizontalAlignment="Left" Height="52" Margin="23,0,0,0" VerticalAlignment="Center" Width="274" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed" Click="Button_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="82" Margin="23,0,0,0" VerticalAlignment="Center" Width="279" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Opacity="0.6"/>
+        <Button Content="Diseño de Aplicaciones de Software&#xA;" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="82" Margin="23,0,0,0" VerticalAlignment="Center" Width="279" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="33" Margin="100,351,0,0" VerticalAlignment="Top" Width="125" FontSize="14" Foreground="White"/>
         <Label Content="Privacy&#xA;Terms" HorizontalAlignment="Left" Height="35" Margin="16,653,0,0" VerticalAlignment="Top" Width="60" FontFamily="Tw Cen MT" FontSize="11" Foreground="White" FontWeight="Medium"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="76,604,0,0" VerticalAlignment="Top" Width="48" Source="/log-out.png" RenderTransformOrigin="0.562,0.156"/>
@@ -92,5 +92,6 @@
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="34" Margin="550,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
         <Label Content="Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="33" Margin="405,305,0,0" VerticalAlignment="Top" Width="248" FontSize="14" Foreground="#FF2B1235" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="176" Margin="372,162,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
     </Grid>
 </Window>

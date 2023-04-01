@@ -24,9 +24,26 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Clase_cuadro(object sender, RoutedEventArgs e)
         {
+            Curso_individual curso_individual = new Curso_individual();
 
+            curso_individual.Owner = this;
+            curso_individual.Show();
+        }
+        private void Clase_boton(object sender, RoutedEventArgs e)
+        {
+            Curso_individual curso_individual = new Curso_individual();
+
+            curso_individual.Owner = this;
+            curso_individual.Show();
+        }
+        private void Salir_total(object sender, RoutedEventArgs e)
+        {
+            Login salir_total = new Login();
+
+            salir_total.Owner = this;
+            salir_total.Show();
         }
     }
 }
