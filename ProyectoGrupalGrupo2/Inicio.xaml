@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="Inicio" Height="724" Width="1190">
+        Title="Inicio" Height="724" Width="1190" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="Black" VerticalAlignment="Center" Width="1190">
+        <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
