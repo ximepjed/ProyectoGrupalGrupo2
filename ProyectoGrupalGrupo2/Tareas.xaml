@@ -5,8 +5,113 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="Tareas" Height="450" Width="800">
+        Title="Tareas" Height="724" Width="1190" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <Window.Resources>
+        <SolidColorBrush x:Key="{x:Static DataGrid.FocusBorderBrushKey}" Color="#FF000000"/>
+        <Style x:Key="DataGridCellStyle1" TargetType="{x:Type DataGridCell}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True">
+                            <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                </Trigger>
+                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                    <Setter Property="BorderBrush" Value="{DynamicResource {x:Static DataGrid.FocusBorderBrushKey}}"/>
+                </Trigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsSelected" Value="true"/>
+                        <Condition Property="Selector.IsSelectionActive" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}}"/>
+                </MultiTrigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="DataGridColumnHeaderStyle1" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                        <Grid/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF391C4E" Offset="0.4"/>
+                <GradientStop Color="#FFBCA9CA" Offset="1"/>
+                <GradientStop Color="#FE5F4572" Offset="0.683"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,105,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/extras/progra1.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,68,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/extras/Logo1.png"/>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,105,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
+        <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,157,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
+        <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,157,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,154,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,154,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229"/>
+        <Label Content="Laboratorio 02" HorizontalAlignment="Left" Margin="146,218,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
+        <Button Content="Lab2.pdf" HorizontalAlignment="Left" Margin="332,222,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,218,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="38"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,221,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229"/>
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,157,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
+            <DatePicker.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Color="#FFA3AEB9"/>
+                    <GradientStop Color="#FF8399A9"/>
+                    <GradientStop Color="#FF563C6A" Offset="0"/>
+                    <GradientStop Color="#FF010001" Offset="1"/>
+                </LinearGradientBrush>
+            </DatePicker.BorderBrush>
+        </DatePicker>
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,219,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
+            <DatePicker.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Color="#FFA3AEB9"/>
+                    <GradientStop Color="#FF8399A9"/>
+                    <GradientStop Color="#FF563C6A" Offset="0"/>
+                    <GradientStop Color="#FF010001" Offset="1"/>
+                </LinearGradientBrush>
+            </DatePicker.BorderBrush>
+        </DatePicker>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,149,0,0" VerticalAlignment="Top" Width="51" Source="/extras/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,212,0,0" VerticalAlignment="Top" Width="51" Source="/extras/notes.png" RenderTransformOrigin="0.562,0.156"/>
+
     </Grid>
 </Window>
+

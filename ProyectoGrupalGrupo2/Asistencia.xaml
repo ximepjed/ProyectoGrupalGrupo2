@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="Asistencia" Height="450" Width="800">
+        Title="Asistencia" Height="724" Width="1190" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF3A1A46" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content=" Diseño de aplicaciones web 1C2023-164008G2" HorizontalAlignment="Left" Margin="33,62,0,0" VerticalAlignment="Top" Height="48" Width="732" Foreground="White" FontSize="36" FontFamily="Tw Cen MT"/>
+        <Label Content="Asistencia" HorizontalAlignment="Left" Margin="45,20,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Height="42"/>
+        <Label Content="Alejandro Durán Altamirano" HorizontalAlignment="Left" Margin="92,168,0,0" VerticalAlignment="Top" Height="42" Width="288" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+        <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="103,249,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+        <Image HorizontalAlignment="Left" Height="54" Margin="33,162,0,0" VerticalAlignment="Top" Width="66" Source="/user.png"/>
+        <Image HorizontalAlignment="Left" Height="54" Margin="33,238,0,0" VerticalAlignment="Top" Width="66" Source="/user.png"/>
+        <CheckBox Content="Presente" HorizontalAlignment="Left" Margin="437,176,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <CheckBox Content="Justificado" HorizontalAlignment="Left" Margin="554,178,0,0" VerticalAlignment="Top" Height="22" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <CheckBox Content="Ausente" HorizontalAlignment="Left" Margin="686,181,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <CheckBox Content="Presente" HorizontalAlignment="Left" Margin="437,254,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <CheckBox Content="Justificado" HorizontalAlignment="Left" Margin="554,256,0,0" VerticalAlignment="Top" Height="22" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <CheckBox Content="Ausente" HorizontalAlignment="Left" Margin="686,259,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/extras/Logo1.png"/>
     </Grid>
 </Window>

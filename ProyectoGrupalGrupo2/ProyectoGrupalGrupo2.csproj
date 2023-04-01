@@ -25,6 +25,7 @@
     <Resource Include="extras\notes.png" />
     <Resource Include="extras\progra1.jpg" />
     <Resource Include="extras\user.png" />
+    <Resource Include="user.png" />
   </ItemGroup>
 
 </Project>
