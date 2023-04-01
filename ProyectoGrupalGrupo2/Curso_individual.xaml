@@ -11,7 +11,7 @@
             <RowDefinition Height="89*"/>
             <RowDefinition Height="619*"/>
         </Grid.RowDefinitions>
-        <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Top" Width="1190" Grid.RowSpan="2">
+        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="Black" VerticalAlignment="Top" Width="1190" Grid.RowSpan="2">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
