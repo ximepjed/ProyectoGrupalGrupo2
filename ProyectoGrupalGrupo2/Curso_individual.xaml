@@ -87,8 +87,21 @@
             </Calendar.Background>
         </Calendar>
         <Rectangle HorizontalAlignment="Left" Height="40" Margin="898,339,0,0" VerticalAlignment="Top" Width="235" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
-        <ListBox HorizontalAlignment="Left" Height="144" Margin="904,408,0,0" VerticalAlignment="Top" Width="222">
+        <ListBox HorizontalAlignment="Left" Height="46" Margin="890,383,0,0" VerticalAlignment="Top" Width="252">
             <Button Content="Semana 1" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
             <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
         </ListBox>
         <Rectangle HorizontalAlignment="Left" Height="2" Margin="391,66,0,0" Stroke="White" VerticalAlignment="Top" Width="726" Fill="White" RenderTransformOrigin="0.5,1">

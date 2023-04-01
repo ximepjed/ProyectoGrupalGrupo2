@@ -8,21 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="colegio.png" />
+    <None Remove="clip.png" />
     <None Remove="log-out.png" />
     <None Remove="login2.jpg" />
     <None Remove="Logo1.png" />
     <None Remove="notes.png" />
     <None Remove="progra1.jpg" />
+    <None Remove="user.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="colegio.png" />
+    <Resource Include="clip.png" />
     <Resource Include="log-out.png" />
     <Resource Include="login2.jpg" />
     <Resource Include="Logo1.png" />
     <Resource Include="notes.png" />
     <Resource Include="progra1.jpg" />
+    <Resource Include="user.png" />
   </ItemGroup>
 
 </Project>

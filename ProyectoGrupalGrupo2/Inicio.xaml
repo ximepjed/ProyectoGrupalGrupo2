@@ -43,9 +43,9 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Label Content="¡Bienvenido!" HorizontalAlignment="Left" Height="44" Margin="128,181,0,0" VerticalAlignment="Top" Width="190" FontSize="20" Foreground="White" FontWeight="Medium"/>
-        <Label Content="Cursos" HorizontalAlignment="Left" Height="33" Margin="128,255,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Foreground="White" FontWeight="Medium"/>
-        <Rectangle HorizontalAlignment="Left" Height="1" Margin="76,305,0,0" Stroke="White" VerticalAlignment="Top" Width="180" Fill="White" RenderTransformOrigin="0.5,1">
+        <Label Content="¡Bienvenido!" HorizontalAlignment="Left" Height="44" Margin="142,182,0,0" VerticalAlignment="Top" Width="128" FontSize="20" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Cursos" HorizontalAlignment="Left" Height="34" Margin="142,327,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.184,0.563"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="90,371,0,0" Stroke="White" VerticalAlignment="Top" Width="180" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -57,22 +57,11 @@
         </Rectangle>
         <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Salir_total" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Button Content="Sing Out" HorizontalAlignment="Left" Height="54" Margin="61,599,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
-        <Rectangle HorizontalAlignment="Left" Height="82" Margin="23,0,0,0" VerticalAlignment="Center" Width="279" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Opacity="0.6"/>
-        <Button Content="Diseño de Aplicaciones de Software&#xA;" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="82" Margin="23,0,0,0" VerticalAlignment="Center" Width="279" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
-        <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="33" Margin="100,351,0,0" VerticalAlignment="Top" Width="125" FontSize="14" Foreground="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Diseño de Aplicaciones de Software&#xA;            1C2023-164008G2" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>
         <Label Content="Privacy&#xA;Terms" HorizontalAlignment="Left" Height="35" Margin="16,653,0,0" VerticalAlignment="Top" Width="60" FontFamily="Tw Cen MT" FontSize="11" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="76,604,0,0" VerticalAlignment="Top" Width="48" Source="/log-out.png" RenderTransformOrigin="0.562,0.156"/>
-        <Image HorizontalAlignment="Left" Height="45" Margin="76,243,0,0" VerticalAlignment="Top" Width="48" Source="/notes.png" RenderTransformOrigin="0.562,0.156"/>
-        <Image HorizontalAlignment="Left" Height="45" Margin="69,181,0,0" VerticalAlignment="Top" Width="48" Source="/colegio.png" RenderTransformOrigin="0.562,0.156">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
+        <Image HorizontalAlignment="Left" Height="44" Margin="78,604,0,0" VerticalAlignment="Top" Width="48" Source="/log-out.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,317,0,0" VerticalAlignment="Top" Width="51" Source="/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Rectangle HorizontalAlignment="Left" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
@@ -92,5 +81,26 @@
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="34" Margin="550,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
         <Button Content="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="#FF2B1235" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="73,252,0,0" VerticalAlignment="Top" Width="48" Source="/user.png" RenderTransformOrigin="0.562,0.156">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button Content="Información&#xD;&#xA; Personal" HorizontalAlignment="Left" Height="54" Margin="90,246,0,0" VerticalAlignment="Top" Width="215" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="20" FontWeight="DemiBold"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="75,182,0,0" VerticalAlignment="Top" Width="48" Source="/clip.png" RenderTransformOrigin="0.562,0.156">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
