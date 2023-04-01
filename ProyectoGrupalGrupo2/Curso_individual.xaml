@@ -122,9 +122,6 @@
                 <Button Content="Semana15" Click="Semana15" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
             </ListBox>
         </ComboBox>
-        <Expander HorizontalAlignment="Left" Height="24" Header="Expander" Margin="931,305,0,0" Grid.Row="1" VerticalAlignment="Top" Width="178" IsExpanded="False">
-            <Grid Background="#FFE5E5E5"/>
-        </Expander>
 
 
 
