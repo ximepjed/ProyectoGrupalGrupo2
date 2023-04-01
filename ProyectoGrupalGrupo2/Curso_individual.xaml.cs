@@ -47,6 +47,8 @@ namespace ProyectoGrupalGrupo2
         private void Button_Click_About(object sender, RoutedEventArgs e)
         {
             //pop up box
+            MessageBox.Show("En este curso, los estudiantes obtendrán las destrezas para programar algoritmos mantenibles, en el sentido de que son" +
+                "robustos, flexibles y reutilizables. Se aplica técnicas y patrones para lograr un código fuente fácil de entender, de probar y de cambiar.");
         }
 
 

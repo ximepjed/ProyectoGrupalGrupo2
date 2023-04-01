@@ -138,6 +138,8 @@
         <Rectangle HorizontalAlignment="Left" Height="61" Margin="650,252,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Button Content="Rooster" HorizontalAlignment="Left" Height="61" Margin="651,252,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="20" Click="Button_Rooster"/>
         <Button Content="Volver al inicio" HorizontalAlignment="Left" Height="32" Margin="100,625,0,0" VerticalAlignment="Top" Width="167" Background="{x:Null}" Foreground="#FFE3D2EC" BorderBrush="{x:Null}" FontSize="16" Click="Button_Inicio" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,581,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Cerrar app" HorizontalAlignment="Left" Height="32" Margin="83,581,0,0" VerticalAlignment="Top" Width="168" Background="{x:Null}" Foreground="#FFE3D2EC" BorderBrush="{x:Null}" FontSize="16" Click="Button_Cerrar" FontWeight="Bold"/>
 
 
 

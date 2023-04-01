@@ -43,6 +43,10 @@ namespace ProyectoGrupalGrupo2
            //idk como hacerla
         }
 
-      
+        private void Button_InfoPer(object sender, RoutedEventArgs e)
+        {
+            //popup box en donde dice info personal
+            MessageBox.Show("Cristhian García Contreras, cgarciac534@ulacit.ed.cr");
+        }
     }
 }
