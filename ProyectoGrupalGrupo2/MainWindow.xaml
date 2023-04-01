@@ -5,9 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="724" Width="1190" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,0,4">
-        <Button Content="Ingrese al login" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" Width="388" RenderTransformOrigin="0.531,0.949" Click="Ingresar_login"/>
+
+        <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform Angle="93" CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF2B1235" Offset="0.248"/>
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFFDFDFD" Offset="1"/>
+                    <GradientStop Color="#FF815794" Offset="0.678"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Image HorizontalAlignment="Center" Height="724" VerticalAlignment="Top" Width="1190" Source="/extras/login2.jpg" Stretch="Fill" Margin="0,10,0,0" Opacity="0.5"/>
+        <Rectangle HorizontalAlignment="Left" Height="603" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="48,0,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="1201" Fill="#FF231327" Margin="-10,0,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1192" Fill="#FF231327" Margin="0,672,0,0"/>
+        <Label Content="ULACIT-La Universidad Privada #1 de Costa Rica" HorizontalAlignment="Left" Height="30" Margin="832,678,0,0" VerticalAlignment="Top" Width="329" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium" Opacity="0.6"/>
+        <Label Content="ULACIT-Universidad Latinoamericana de Ciencia y Tecnología" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Top" Width="443" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium" Opacity="0.6"/>
+        <Rectangle HorizontalAlignment="Left" Height="143" Margin="48,51,0,0" VerticalAlignment="Top" Width="312" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" Stroke="White" StrokeDashCap="Round" RadiusX="30" RadiusY="30"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="75,84,0,0" VerticalAlignment="Top" Width="79" Source="/extras/Logo1.png"/>
+        <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="156,76,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="44" Margin="156,122,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
+        <Rectangle HorizontalAlignment="Left" Height="424" Margin="58,215,0,0" VerticalAlignment="Top" Width="292" Fill="#CC240831" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,236,0,0" VerticalAlignment="Top" Width="232" Fill="#FFF4DEFF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,337,0,0" VerticalAlignment="Top" Width="232" Fill="#FF9F7AB1" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,442,0,0" VerticalAlignment="Top" Width="232" Fill="#FFF4DEFF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Ingresar al Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Ingresar_login" Margin="88,337,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="20"/>
+        <Button Content="Sobre WhiteBoard" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoWhite" Margin="88,442,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
+        <Button Content="Sobre la Ulacit" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoULACIT" Margin="88,236,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
+        <Grid HorizontalAlignment="Left" Height="603" Margin="396,0,0,0" VerticalAlignment="Center" Width="765">
+            <Frame x:Name="Version1" Content="ULACIT" HorizontalAlignment="Center" Height="603" VerticalAlignment="Center" Width="765" Foreground="White" Navigated="Version1_Navigated"/>
+        </Grid>
+
+
+
 
     </Grid>
 </Window>

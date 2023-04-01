@@ -18,7 +18,6 @@
         <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="54" Margin="885,170,0,0" VerticalAlignment="Top" Width="248" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
         <Rectangle HorizontalAlignment="Left" Height="325" Margin="804,249,0,0" VerticalAlignment="Top" Width="310" Fill="#FF17001D" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" Opacity="0.5" RadiusX="30" RadiusY="30"/>
         <Label Content="Login" HorizontalAlignment="Left" Height="62" Margin="902,249,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="97" Margin="789,127,0,0" VerticalAlignment="Top" Width="96" Source="/Logo1.png"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="846,311,0,0" Stroke="White" VerticalAlignment="Top" Width="237" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -48,6 +47,7 @@
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" ButtonBase.Click="Error_Pass" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FFC080D8" BorderBrush="White"/>
         <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32"/>
+        <Image HorizontalAlignment="Left" Height="97" Margin="789,127,0,0" VerticalAlignment="Top" Width="96" Source="/Logo1.png" />
 
 
     </Grid>
