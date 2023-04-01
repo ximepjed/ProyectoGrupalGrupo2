@@ -92,6 +92,6 @@
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="34" Margin="550,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
         <Label Content="Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="33" Margin="405,305,0,0" VerticalAlignment="Top" Width="248" FontSize="14" Foreground="#FF2B1235" FontWeight="Bold"/>
-        <Button Content="" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="176" Margin="372,162,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
+        <Button Content="    " HorizontalAlignment="Left" Click="Clase_cuadro" Height="176" Margin="372,162,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
     </Grid>
 </Window>

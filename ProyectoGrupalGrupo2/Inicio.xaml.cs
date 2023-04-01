@@ -26,24 +26,21 @@ namespace ProyectoGrupalGrupo2
 
         private void Clase_cuadro(object sender, RoutedEventArgs e)
         {
+            //boton grande, el cuadro con imagen
             Curso_individual curso_individual = new Curso_individual();
-
             curso_individual.Owner = this;
             curso_individual.Show();
         }
         private void Clase_boton(object sender, RoutedEventArgs e)
         {
+            //boton individual del lado izquierdo
             Curso_individual curso_individual = new Curso_individual();
-
             curso_individual.Owner = this;
             curso_individual.Show();
         }
         private void Salir_total(object sender, RoutedEventArgs e)
         {
-            Login salir_total = new Login();
-
-            salir_total.Owner = this;
-            salir_total.Show();
+           //idk como hacerla
         }
     }
 }
