@@ -27,12 +27,14 @@ namespace ProyectoGrupalGrupo2
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            //hacer
         }
 
         private void Button_Nota(object sender, RoutedEventArgs e)
         {
-
+            Notas notas = new Notas();
+            //notas.Owner();
+            notas.Show();
         }
 
         private void Button_Asistencia(object sender, RoutedEventArgs e)
@@ -45,10 +47,6 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void Button_Click_Rooster(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
@@ -56,6 +54,16 @@ namespace ProyectoGrupalGrupo2
         }
 
         private void Button_Tarea(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Rooster(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Inicio(object sender, RoutedEventArgs e)
         {
 
         }

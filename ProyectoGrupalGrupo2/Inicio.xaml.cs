@@ -42,5 +42,7 @@ namespace ProyectoGrupalGrupo2
         {
            //idk como hacerla
         }
+
+      
     }
 }
