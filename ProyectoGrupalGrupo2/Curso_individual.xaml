@@ -103,8 +103,7 @@
         </Calendar>
         <Rectangle HorizontalAlignment="Left" Height="41" Margin="914,299,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Grid.Row="1"/>
 
-        <ComboBox HorizontalAlignment="Left" Height="133" Margin="322,5,0,0" VerticalAlignment="Top" Width="141" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1"/>
-        <Expander HorizontalAlignment="Left" Height="24" Header="Expander" Margin="931,305,0,0" Grid.Row="1" VerticalAlignment="Top" Width="178" IsExpanded="False">
+        <ComboBox HorizontalAlignment="Left" Height="31" Margin="939,345,0,0" VerticalAlignment="Top" Width="162" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1">
             <ListBox HorizontalAlignment="Left" Height="385" VerticalAlignment="Top" Width="221" SelectionChanged="ListBox_SelectionChanged">
                 <Button Content="Semana1" Click="Semana1" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
                 <Button Content="Semana2" Click="Semana2" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
@@ -122,6 +121,9 @@
                 <Button Content="Semana14" Click="Semana14" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
                 <Button Content="Semana15" Click="Semana15" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
             </ListBox>
+        </ComboBox>
+        <Expander HorizontalAlignment="Left" Height="24" Header="Expander" Margin="931,305,0,0" Grid.Row="1" VerticalAlignment="Top" Width="178" IsExpanded="False">
+            <Grid Background="#FFE5E5E5"/>
         </Expander>
 
 
