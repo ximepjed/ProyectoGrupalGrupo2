@@ -24,47 +24,8 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
         {
 
         }
@@ -79,7 +40,22 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void Button_tTTarea(object sender, RoutedEventArgs e)
+        private void Button_Click_About(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Rooster(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Tarea(object sender, RoutedEventArgs e)
         {
 
         }
