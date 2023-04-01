@@ -101,8 +101,9 @@
                 </LinearGradientBrush>
             </Calendar.Background>
         </Calendar>
-        <Expander HorizontalAlignment="Left" Height="25" Header="Expander" Margin="934,304,0,0" Grid.Row="1" VerticalAlignment="Top" Width="183" Background="White">
-            <Button Content="Volver al Inicio" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="206" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="922,298,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Grid.Row="1"/>
+        <Expander HorizontalAlignment="Left" Height="316" Header="Expander" Margin="934,304,0,0" Grid.Row="1" VerticalAlignment="Top" Width="183" Background="{x:Null}" IsExpanded="True">
+            <Button Content="Volver al Inicio" HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="184" Background="White" Foreground="#FF020102" BorderBrush="{x:Null}" Margin="0,25,0,0"/>
         </Expander>
     </Grid>
 </Window>
