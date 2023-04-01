@@ -102,25 +102,11 @@
             </Calendar.Background>
         </Calendar>
         <Rectangle HorizontalAlignment="Left" Height="41" Margin="895,299,0,0" VerticalAlignment="Top" Width="235" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Grid.Row="1"/>
-        <Expander HorizontalAlignment="Left" Height="102" Header="Expander" Margin="900,308,0,0" Grid.Row="1" VerticalAlignment="Top" Width="225">
-            <ListBox HorizontalAlignment="Left" Height="385" VerticalAlignment="Top" Width="221" SelectionChanged="ListBox_SelectionChanged">
-                <Button Content="Semana1" Click="Semana1" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana2" Click="Semana2" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana3" Click="Semana3" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana4" Click="Semana4" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana5" Click="Semana5" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana6" Click="Semana6" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana7" Click="Semana7" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana8" Click="Semana8" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana9" Click="Semana9" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana10" Click="Semana10" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana11" Click="Semana11" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana12" Click="Semana12" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana13" Click="Semana13" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana14" Click="Semana14" Height="21" Width="206" Background="#FF4F315F" Foreground="White" BorderBrush="{x:Null}"/>
-                <Button Content="Semana15" Click="Semana15" Height="21" Width="206" Background="#FF2B1235" Foreground="White" BorderBrush="{x:Null}"/>
-            </ListBox>
-        </Expander>
+        <ListBox HorizontalAlignment="Left" Height="144" Margin="906,357,0,0" Grid.Row="1" VerticalAlignment="Top" Width="222">
+            <Button Content="Semana 1" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+            <Button Content="Semana 2" Height="39" Width="207" Background="Black" Foreground="White" BorderBrush="{x:Null}"/>
+        </ListBox>
+
 
 
 
