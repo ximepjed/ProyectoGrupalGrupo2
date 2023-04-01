@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,0,4">
-        <Button Content="Ingrese al login" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" Width="388" RenderTransformOrigin="0.531,0.949" ButtonBase.Click="Ingresar_login"/>
+        <Button Content="Ingrese al login" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" Width="388" RenderTransformOrigin="0.531,0.949" Click="Ingresar_login"/>
 
     </Grid>
 </Window>
