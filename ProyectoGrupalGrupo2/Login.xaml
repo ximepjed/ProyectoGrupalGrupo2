@@ -8,7 +8,7 @@
         Title="Login" Height="724" Width="1172" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="{x:Null}">
     <Grid>
         <Image HorizontalAlignment="Center" Height="708" VerticalAlignment="Center" Width="1194" Source="/login2.jpg" Stretch="Fill"/>
-        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="#FF4B215B" VerticalAlignment="Center" Width="1172" Fill="#FF4B215B" Opacity="0.35"/>
+        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="#FF4B215B" VerticalAlignment="Center" Width="1194" Fill="#FF4B215B" Opacity="0.35"/>
         <Rectangle HorizontalAlignment="Left" Height="505" Margin="775,0,0,0" VerticalAlignment="Center" Width="368" Fill="#FF3A1A46" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" RadiusX="20" RadiusY="30"/>
         <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1192" Fill="#FF231327"/>
         <Label Content="ULACIT-Universidad Latinoamericana de Ciencia y Tecnología" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Top" Width="443" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium" Opacity="0.6"/>
