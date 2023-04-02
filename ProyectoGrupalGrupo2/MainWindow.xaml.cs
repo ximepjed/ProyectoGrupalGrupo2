@@ -41,12 +41,7 @@ namespace ProyectoGrupalGrupo2
         }
         private void Button_infoULACIT(object sender, RoutedEventArgs e)
         {
-            Ulacit_Frame.NavigationService.Navigate(new Información_Ulacit());
-        }
-
-        private void Version1_Navigated(object sender, NavigationEventArgs e)
-        {
-
+            Ulacit_Frame.NavigationService.Navigate(new Informacion_Ulacit());
         }
     }
 }

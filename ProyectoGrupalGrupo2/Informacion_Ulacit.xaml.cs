@@ -16,13 +16,13 @@ using System.Windows.Shapes;
 namespace ProyectoGrupalGrupo2
 {
     /// <summary>
-    /// Lógica de interacción para Información_Ulacit.xaml
+    /// Lógica de interacción para Informacion_Ulacit.xaml
     /// </summary>
-    public partial class Información_Ulacit : Page
+    public partial class Informacion_Ulacit : Page
     {
-        public Información_Ulacit()
+        public Informacion_Ulacit()
         {
-
+            InitializeComponent();
         }
     }
 }

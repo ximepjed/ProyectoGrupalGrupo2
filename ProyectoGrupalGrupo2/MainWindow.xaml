@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="724" Width="1190" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="MainWindow" Height="724" Width="1172" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
             <Rectangle.Fill>
