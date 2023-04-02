@@ -22,7 +22,7 @@ namespace ProyectoGrupalGrupo2
     {
         public Información_Ulacit()
         {
-            InitializeComponent();
+
         }
     }
 }
