@@ -42,11 +42,12 @@
         <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,337,0,0" VerticalAlignment="Top" Width="232" Fill="#FF9F7AB1" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,442,0,0" VerticalAlignment="Top" Width="232" Fill="#FFF4DEFF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Button Content="Ingresar al Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Ingresar_login" Margin="88,337,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="20"/>
-        <Button Content="Sobre WhiteBoard" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoWhite" Margin="88,442,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
+        <Button Content="Sobre WhiteBoard" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" ButtonBase.Click="Button_infoWhite" Margin="88,442,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
         <Button Content="Sobre la Ulacit" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoULACIT" Margin="88,236,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
-        <Grid HorizontalAlignment="Left" Height="603" Margin="396,0,0,0" VerticalAlignment="Center" Width="765">
-            <Frame x:Name="Version1" Content="ULACIT" HorizontalAlignment="Center" Height="603" VerticalAlignment="Center" Width="765" Foreground="White" Navigated="Version1_Navigated"/>
-        </Grid>
+        <StackPanel HorizontalAlignment="Left" Height="588" Margin="401,51,0,0" VerticalAlignment="Top" Width="742">
+            <Frame x:Name="Version1" Content="Frame" Height="598" Width="760" Background="White"/>
+        </StackPanel>
+
 
 
 

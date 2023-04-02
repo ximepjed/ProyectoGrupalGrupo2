@@ -35,7 +35,7 @@ namespace ProyectoGrupalGrupo2
         
 
         }
-        private void Button_infowhite(object sender, RoutedEventArgs e)
+        private void Button_infoWhite(object sender, RoutedEventArgs e)
         {
             Version1.NavigationService.Navigate(new PROTOTIPO());
         }
