@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <None Remove="clip.png" />
+    <None Remove="Imágenes_proyecto\login2.jpg" />
+    <None Remove="Imágenes_proyecto\Logo1.png" />
+    <None Remove="Imágenes_proyecto\user.png" />
     <None Remove="log-out.png" />
     <None Remove="login2.jpg" />
     <None Remove="Logo1.png" />
@@ -20,18 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="extras\clip.png" />
-    <Resource Include="extras\log-out.png" />
-    <Resource Include="extras\login2.jpg" />
-    <Resource Include="extras\Logo1.png" />
-    <Resource Include="extras\notes.png" />
-    <Resource Include="extras\progra1.jpg" />
-    <Resource Include="extras\user.png" />
-    <Resource Include="login2.jpg" />
-    <Resource Include="Logo1.png" />
-    <Resource Include="ulacit.jpg" />
-    <Resource Include="user.png" />
-    <Resource Include="white.png" />
+    <Resource Include="Imágenes_proyecto\clip.png" />
+    <Resource Include="Imágenes_proyecto\log-out.png" />
+    <Resource Include="Imágenes_proyecto\notes.png" />
+    <Resource Include="Imágenes_proyecto\progra1.jpg" />
+    <Resource Include="Imágenes_proyecto\login2.jpg" />
+    <Resource Include="Imágenes_proyecto\Logo1.png" />
+    <Resource Include="Imágenes_proyecto\ulacit.jpg" />
+    <Resource Include="Imágenes_proyecto\user.png" />
+    <Resource Include="Imágenes_proyecto\white.png" />
   </ItemGroup>
 
 </Project>

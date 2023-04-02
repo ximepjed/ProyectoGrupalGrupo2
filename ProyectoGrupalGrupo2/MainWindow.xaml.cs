@@ -27,20 +27,19 @@ namespace ProyectoGrupalGrupo2
 
         private void Ingresar_login(object sender, RoutedEventArgs e)
         {
+            //Botón para ingresar al login
             Login login = new Login();
-
             login.Owner= this;
             login.Show();
-
-        
-
         }
         private void Button_infoWhite(object sender, RoutedEventArgs e)
         {
+            //Botón para navegar en el frame, para acceder a la información de Whiteboard
             Ulacit_Frame.NavigationService.Navigate(new Información_Whiteboard());
         }
         private void Button_infoULACIT(object sender, RoutedEventArgs e)
         {
+            //Botón para navegar en el frame, para acceder a la información de la Ulacit
             Ulacit_Frame.NavigationService.Navigate(new Informacion_Ulacit());
         }
     }
