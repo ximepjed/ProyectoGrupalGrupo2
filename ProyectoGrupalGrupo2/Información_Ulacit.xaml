@@ -1,0 +1,43 @@
+﻿<Page x:Class="ProyectoGrupalGrupo2.PROTOTIPO"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
+      mc:Ignorable="d" 
+      d:DesignHeight="588" d:DesignWidth="769"
+      Title="PROTOTIPO">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF68417F" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,26,0,0" VerticalAlignment="Top" Width="70" Source="/extras/Logo1.png"/>
+        <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="96,31,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Rectangle HorizontalAlignment="Left" Height="2" Margin="96,90,0,0" Stroke="White" VerticalAlignment="Top" Width="643" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Para ULACIT, el aprendizaje es la capacidad de un individuo de utilizar el conocimiento en situaciones novedosas (por ejemplo, &#xD;&#xA;solucionar problemas, diseñar productos o argumentar puntos de vista), de formas semejantes a las que modelan los expertos en disciplinas &#xD;&#xA; específicas. Los estudiantes demuestran su aprendizaje cuando son capaces de ir más allá de la acumulación de información y realizan proyectos &#xD;&#xA; que son valorados por las comunidades en que viven. Estos proyectos los llevan a cabo en equipos de trabajo, utilizando las metodologías &#xD;&#xA; de gestión de proyectos usadas en los ambientes laborales.  Las lecciones se imparten en aulas invertidas: la teoría se ve en casa, en las aulas &#xD;&#xA; virtuales; y la práctica, en el aula presencial. Por tanto, el tiempo en el aula se centra en ejercicios, proyectos y discusiones, no en lecciones &#xD;&#xA; magistrales.  Familiarícese con nuestro modelo educativo y metodología de enseñanza basada en proyectos." HorizontalAlignment="Left" Height="117" Margin="25,136,0,0" VerticalAlignment="Top" Width="714" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11"/>
+        <Label Content="Metodología de Aprendizaje" HorizontalAlignment="Left" Height="35" Margin="25,101,0,0" VerticalAlignment="Top" Width="425" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Acreditaciones" HorizontalAlignment="Left" Height="35" Margin="25,253,0,0" VerticalAlignment="Top" Width="425" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Label Content="En ULACIT estamos comprometidos con la calidad de nuestras carreras. Por eso somos miembros fundadores del Sistema Nacional de &#xD;&#xA; Acreditación de la Educación Superior (SINAES) desde 1998. Contamos con once carreras acreditadas, y estamos en proceso de acreditar la &#xD;&#xA; totalidad de nuestros programas." HorizontalAlignment="Left" Height="69" Margin="25,288,0,0" VerticalAlignment="Top" Width="714" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11"/>
+        <Label Content="Por doce años consecutivos (2011-2023), ULACIT ha sido catalogada como la mejor &#xD;&#xA; universidad privada de Costa Rica, según el QS Latin America University Rankings de &#xD;&#xA; Londres. Además, fue nombrada la mejor universidad privada de Centroamérica, &#xD;&#xA; la universidad costarricense preferida por los empleadores, así como la universidad  con la &#xD;&#xA; mayor proporción de su profesorado con grados doctorales." HorizontalAlignment="Left" Height="157" Margin="28,382,0,0" VerticalAlignment="Top" Width="454" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Prestigio" HorizontalAlignment="Left" Height="35" Margin="28,347,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Rectangle HorizontalAlignment="Left" Height="208" Margin="487,356,0,0" VerticalAlignment="Top" Width="261" RadiusX="20" RadiusY="20">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/ulacit.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+    </Grid>
+</Page>
