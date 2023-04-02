@@ -55,6 +55,10 @@
         </Style>
     </Window.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="223*"/>
+        </Grid.RowDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <LinearGradientBrush.RelativeTransform>
@@ -71,25 +75,25 @@
                 <GradientStop Color="#FE5F4572" Offset="0.683"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,105,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3">
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,66,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" Grid.Row="1">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/extras/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
 
-        <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
-        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,68,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
-        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,105,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
-        <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,157,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
-        <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,157,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91"/>
-        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,154,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39"/>
-        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,154,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229"/>
-        <Label Content="Laboratorio 02" HorizontalAlignment="Left" Margin="146,218,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
-        <Button Content="Lab2.pdf" HorizontalAlignment="Left" Margin="332,222,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91"/>
-        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,218,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="38"/>
-        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,221,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229"/>
-        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,157,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
+        <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
+        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,29,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,66,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20" Grid.Row="1"/>
+        <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,118,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False" Grid.Row="1"/>
+        <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,118,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Grid.Row="1"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,115,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39" Grid.Row="1"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,115,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Grid.Row="1"/>
+        <Label Content="Laboratorio 02" HorizontalAlignment="Left" Margin="146,179,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False" Grid.Row="1"/>
+        <Button Content="Lab2.pdf" HorizontalAlignment="Left" Margin="332,183,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Grid.Row="1"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,179,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="38" Grid.Row="1"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,182,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Grid.Row="1"/>
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,118,0,0" VerticalAlignment="Top" Width="220" Foreground="Black" Grid.Row="1">
             <DatePicker.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
                     <GradientStop Color="#FFA3AEB9"/>
@@ -99,7 +103,7 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,219,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,180,0,0" VerticalAlignment="Top" Width="220" Foreground="Black" Grid.Row="1">
             <DatePicker.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
                     <GradientStop Color="#FFA3AEB9"/>
@@ -109,8 +113,8 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,149,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,212,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,110,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,173,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.Row="1"/>
 
     </Grid>
 </Window>
