@@ -28,7 +28,7 @@
         </Rectangle>
         <Rectangle HorizontalAlignment="Left" Height="675" Margin="87,17,0,0" VerticalAlignment="Top" Width="1093" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.RowSpan="2" Opacity="0.3">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="/extras/progra1.jpg"/>
+                <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
         <Rectangle HorizontalAlignment="Left" Height="665" VerticalAlignment="Top" Width="312" Fill="#FF452552" Margin="10,27,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
@@ -36,7 +36,7 @@
         <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="120,26,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
         <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="43" Margin="120,72,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
         <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="120,117,0,0" VerticalAlignment="Top" Width="76" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="27,42,0,0" VerticalAlignment="Top" Width="79" Source="/extras/Logo1.png"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="27,42,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="104,21,0,0" Stroke="White" VerticalAlignment="Top" Width="179" Fill="White" RenderTransformOrigin="0.5,1" Grid.Row="1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -51,13 +51,13 @@
         <Label Content="Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="33" Margin="27,183,0,0" VerticalAlignment="Top" Width="280" FontSize="16" Foreground="White" FontWeight="Bold"/>
         <Rectangle HorizontalAlignment="Left" Height="133" Margin="27,221,0,0" VerticalAlignment="Top" Width="278" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="/extras/progra1.jpg"/>
+                <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="28" Margin="182,326,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White" RenderTransformOrigin="0.537,2.073"/>
         <Rectangle HorizontalAlignment="Left" Height="39" Margin="61,377,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,624,0,0" VerticalAlignment="Top" Width="208" Fill="#FF0A020E" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
-        <Image HorizontalAlignment="Left" Height="41" Margin="87,630,0,0" VerticalAlignment="Top" Width="27" Source="/extras/log-out.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="41" Margin="87,630,0,0" VerticalAlignment="Top" Width="27" Source="/Imágenes_proyecto/log-out.png" RenderTransformOrigin="0.562,0.156"/>
         <Button Content="Sobre el curso" HorizontalAlignment="Left" Height="39" Margin="60,377,0,0" VerticalAlignment="Top" Width="207" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14" Click="Button_Click_About"/>
         <Label Content="                      Curso&#xD;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" Height="123" Margin="399,7,0,0" VerticalAlignment="Top" Width="710" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="568" VerticalAlignment="Top" Width="804" Fill="#FF120517" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.85" Margin="352,124,0,0"/>

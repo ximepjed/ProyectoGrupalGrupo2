@@ -15,7 +15,7 @@
                 <GradientStop Color="#FF68417F" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Image HorizontalAlignment="Left" Height="66" Margin="25,26,0,0" VerticalAlignment="Top" Width="70" Source="/extras/Logo1.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,26,0,0" VerticalAlignment="Top" Width="70" Source="/Imágenes_proyecto/Logo1.png"/>
         <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="96,31,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
         <Rectangle HorizontalAlignment="Left" Height="2" Margin="96,90,0,0" Stroke="White" VerticalAlignment="Top" Width="643" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
@@ -35,7 +35,7 @@
         <Label Content="Prestigio" HorizontalAlignment="Left" Height="35" Margin="28,347,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
         <Rectangle HorizontalAlignment="Left" Height="208" Margin="487,356,0,0" VerticalAlignment="Top" Width="261" RadiusX="20" RadiusY="20">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="/ulacit.jpg"/>
+                <ImageBrush ImageSource="/Imágenes_proyecto/ulacit.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
 

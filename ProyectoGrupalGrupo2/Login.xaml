@@ -28,7 +28,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Image HorizontalAlignment="Left" Height="32" Margin="1129,0,0,0" VerticalAlignment="Top" Width="31" Source="/Logo1.png" Opacity="0.6" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="32" Margin="1129,0,0,0" VerticalAlignment="Top" Width="31" Source="/Imágenes_proyecto/Logo1.png" Opacity="0.6" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -38,7 +38,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image HorizontalAlignment="Left" Height="32" Margin="10,672,0,0" VerticalAlignment="Top" Width="63" Source="/Logo1.png" Opacity="0.6"/>
+        <Image HorizontalAlignment="Left" Height="32" Margin="10,672,0,0" VerticalAlignment="Top" Width="63" Source="/Imágenes_proyecto/Logo1.png" Opacity="0.6"/>
         <Label Content="Usuario" HorizontalAlignment="Left" Height="35" Margin="828,348,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="18" Foreground="White" FontWeight="Medium"/>
         <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="902,316,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Height="35" Margin="828,407,0,0" VerticalAlignment="Top" Width="114" FontFamily="Tw Cen MT" FontSize="18" Foreground="White" FontWeight="Medium"/>
@@ -47,7 +47,7 @@
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" ButtonBase.Click="Error_Pass" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FFC080D8" BorderBrush="White"/>
         <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32"/>
-        <Image HorizontalAlignment="Left" Height="97" Margin="789,127,0,0" VerticalAlignment="Top" Width="96" Source="/Logo1.png" />
+        <Image HorizontalAlignment="Left" Height="97" Margin="789,127,0,0" VerticalAlignment="Top" Width="96" Source="/Imágenes_proyecto/Logo1.png"/>
 
 
     </Grid>

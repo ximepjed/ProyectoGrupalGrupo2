@@ -26,7 +26,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Rectangle HorizontalAlignment="Center" Height="143" Margin="0,24,0,0" VerticalAlignment="Top" Width="312" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" Stroke="White" StrokeDashCap="Round" RadiusX="30" RadiusY="30"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="171,58,0,0" VerticalAlignment="Top" Width="79" Source="/Logo1.png"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="171,58,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
         <Label Content="ULACIT" HorizontalAlignment="Left" Height="57" Margin="252,39,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.613,0.617"/>
         <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="43" Margin="252,82,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
         <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="252,125,0,0" VerticalAlignment="Top" Width="76" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium"/>

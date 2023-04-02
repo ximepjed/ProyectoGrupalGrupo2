@@ -79,7 +79,7 @@
 
         <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
         <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,68,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/extras/Logo1.png"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
         <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,105,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
         <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,157,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
         <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,157,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91"/>
@@ -109,8 +109,8 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,149,0,0" VerticalAlignment="Top" Width="51" Source="/extras/notes.png" RenderTransformOrigin="0.562,0.156"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,212,0,0" VerticalAlignment="Top" Width="51" Source="/extras/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,149,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,212,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
 
     </Grid>
 </Window>
