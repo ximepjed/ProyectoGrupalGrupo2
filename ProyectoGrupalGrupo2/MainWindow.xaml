@@ -51,7 +51,11 @@
                     <ImageBrush ImageSource="/login2.jpg"/>
                 </Frame.Background>
             </Frame>
-
+            <Frame x:Name="Ulacit_Frame2" Content=" " Height="588" Width="769">
+                <Frame.Background>
+                    <ImageBrush ImageSource="/login2.jpg"/>
+                </Frame.Background>
+            </Frame>
         </StackPanel>
         <Image HorizontalAlignment="Left" Height="32" Margin="10,678,0,0" VerticalAlignment="Top" Width="32" Source="/extras/Logo1.png"/>
         <Image HorizontalAlignment="Left" Height="32" Margin="1148,0,0,0" VerticalAlignment="Top" Width="32" Source="/extras/Logo1.png"/>
