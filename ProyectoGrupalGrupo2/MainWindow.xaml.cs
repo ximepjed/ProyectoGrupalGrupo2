@@ -37,11 +37,11 @@ namespace ProyectoGrupalGrupo2
         }
         private void Button_infoWhite(object sender, RoutedEventArgs e)
         {
-            Version1.NavigationService.Navigate(new Información_Whiteboard());
+            Ulacit_Frame.NavigationService.Navigate(new Información_Whiteboard());
         }
         private void Button_infoULACIT(object sender, RoutedEventArgs e)
         {
-            Version1.NavigationService.Navigate(new Información_Ulacit());
+            Ulacit_Frame.NavigationService.Navigate(new Información_Ulacit());
         }
 
         private void Version1_Navigated(object sender, NavigationEventArgs e)

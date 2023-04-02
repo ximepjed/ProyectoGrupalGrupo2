@@ -26,7 +26,7 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Image HorizontalAlignment="Center" Height="698" VerticalAlignment="Top" Width="1190" Source="/extras/login2.jpg" Stretch="Fill" Margin="0,10,0,0" Opacity="0.5"/>
+        <Image HorizontalAlignment="Center" Height="724" VerticalAlignment="Top" Width="1190" Source="/extras/login2.jpg" Stretch="Fill" Opacity="0.5"/>
         <Rectangle HorizontalAlignment="Left" Height="603" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="48,0,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
         <Rectangle HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="1201" Fill="#FF231327" Margin="-10,0,0,0"/>
         <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1192" Fill="#FF231327" Margin="0,678,0,0"/>
@@ -40,11 +40,13 @@
         <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,236,0,0" VerticalAlignment="Top" Width="232" Fill="#FFF4DEFF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,337,0,0" VerticalAlignment="Top" Width="232" Fill="#FF9F7AB1" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="70" Margin="88,442,0,0" VerticalAlignment="Top" Width="232" Fill="#FFF4DEFF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        
         <Button Content="Ingresar al Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Ingresar_login" Margin="88,337,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="20"/>
         <Button Content="Sobre WhiteBoard" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoWhite" Margin="88,442,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
         <Button Content="Sobre la Ulacit" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="232" RenderTransformOrigin="0.531,0.949" Click="Button_infoULACIT" Margin="88,236,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="20"/>
+        
         <StackPanel HorizontalAlignment="Left" Height="588" Margin="379,51,0,0" VerticalAlignment="Top" Width="772">
-            <Frame x:Name="Version1" Content=" " Height="588" Width="769">
+            <Frame x:Name="Ulacit_Frame" Content=" " Height="588" Width="769">
                 <Frame.Background>
                     <ImageBrush ImageSource="/login2.jpg"/>
                 </Frame.Background>
