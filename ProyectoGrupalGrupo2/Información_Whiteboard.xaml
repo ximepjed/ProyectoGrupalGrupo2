@@ -1,0 +1,39 @@
+﻿<Page x:Class="ProyectoGrupalGrupo2.Información_Whiteboard"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
+      mc:Ignorable="d" 
+      d:DesignHeight="588" d:DesignWidth="769"
+      Title="Información_Whiteboard">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF68417F" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,26,0,0" VerticalAlignment="Top" Width="70" Source="/extras/Logo1.png"/>
+        <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="96,13,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Rectangle HorizontalAlignment="Left" Height="2" Margin="96,101,0,0" Stroke="White" VerticalAlignment="Top" Width="643" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Sobre Whiteboard" HorizontalAlignment="Left" Height="35" Margin="25,120,0,0" VerticalAlignment="Top" Width="425" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="44" Margin="96,52,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Whiteboard cumple la función de recrear un aula de manera virtual, donde se permitan realizar funciones como la asignación de trabajos &#xD;&#xA;extra-clase, toma de asistencia, asignar calificaciones, subida de contenido entre otros. Este tipo de programas pueden ser utilizados en su&#xD;&#xA; totalidad como aula virtual, o bien, pueden ser utilizados como una herramienta de apoyo al aula presencial. " HorizontalAlignment="Left" Height="69" Margin="25,155,0,0" VerticalAlignment="Top" Width="714" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11" IsEnabled="False"/>
+        <Label Content="Diseñar un software el cual facilite a los profesores a tener un mejor orden con sus cursos y con las herramientas necesarias para impartir los&#xD;&#xA; cursos, ya sean virtuales o presenciales. " HorizontalAlignment="Left" Height="70" Margin="25,242,0,0" VerticalAlignment="Top" Width="714" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11" IsEnabled="False"/>
+        <Label Content="Objetivo Principal" HorizontalAlignment="Left" Height="35" Margin="25,207,0,0" VerticalAlignment="Top" Width="425" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Objetivos Secundarios" HorizontalAlignment="Left" Height="35" Margin="25,0,0,0" VerticalAlignment="Center" Width="425" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Evaluar las necesidades de los profesores de la ULACIT para crear la nueva plataforma. &#xD;&#xA;&#xD;&#xA;Identificar las características necesarias que debe tener el programa. &#xD;&#xA;&#xD;&#xA;Facilitar a los profesores la forma de tener un mejor control sobre las ausencias de los estudiantes. &#xD;&#xA;&#xD;&#xA;Proponer una idea innovadora la cual sea de agrado a los profesores y así poder implementarla. &#xD;&#xA;&#xD;&#xA;Diseñar este programa con las herramientas que brinda la aplicación Visual Studio. " HorizontalAlignment="Left" Height="155" Margin="25,312,0,0" VerticalAlignment="Top" Width="714" Foreground="White" RenderTransformOrigin="0.537,2.073" FontSize="11" IsEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="160" Margin="517,378,0,0" VerticalAlignment="Top" Width="222" Source="/white.png" Stretch="Fill"/>
+    </Grid>
+</Page>

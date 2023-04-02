@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
       mc:Ignorable="d" 
       d:DesignHeight="588" d:DesignWidth="769"
-      Title="PROTOTIPO">
+      Title="Información_Ulacit">
 
     <Grid>
         <Grid.Background>

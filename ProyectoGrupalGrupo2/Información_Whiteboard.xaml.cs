@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ProyectoGrupalGrupo2
 {
     /// <summary>
-    /// Lógica de interacción para Contenido_Semana1.xaml
+    /// Lógica de interacción para Información_Whiteboard.xaml
     /// </summary>
-    public partial class Contenido_Semana1 : Window
+    public partial class Información_Whiteboard : Page
     {
-        public Contenido_Semana1()
+        public Información_Whiteboard()
         {
             InitializeComponent();
         }

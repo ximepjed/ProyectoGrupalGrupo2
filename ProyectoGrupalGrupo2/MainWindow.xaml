@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="724" Width="1190" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="724" Width="1190" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
             <Rectangle.Fill>
@@ -26,7 +26,7 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Image HorizontalAlignment="Center" Height="724" VerticalAlignment="Top" Width="1190" Source="/extras/login2.jpg" Stretch="Fill" Margin="0,10,0,0" Opacity="0.5"/>
+        <Image HorizontalAlignment="Center" Height="698" VerticalAlignment="Top" Width="1190" Source="/extras/login2.jpg" Stretch="Fill" Margin="0,10,0,0" Opacity="0.5"/>
         <Rectangle HorizontalAlignment="Left" Height="603" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="48,0,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
         <Rectangle HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="1201" Fill="#FF231327" Margin="-10,0,0,0"/>
         <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1192" Fill="#FF231327" Margin="0,678,0,0"/>

@@ -16,6 +16,7 @@
     <None Remove="progra1.jpg" />
     <None Remove="ulacit.jpg" />
     <None Remove="user.png" />
+    <None Remove="white.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +31,7 @@
     <Resource Include="Logo1.png" />
     <Resource Include="ulacit.jpg" />
     <Resource Include="user.png" />
+    <Resource Include="white.png" />
   </ItemGroup>
 
 </Project>
