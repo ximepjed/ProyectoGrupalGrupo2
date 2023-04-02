@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="724" Width="1172" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="{x:Null}">
     <Grid>
-        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="Black" VerticalAlignment="Center" Width="1172">
+        <Rectangle HorizontalAlignment="Center" Height="708" Stroke="Black" VerticalAlignment="Center" Width="1190">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
@@ -26,7 +26,7 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Image HorizontalAlignment="Center" Height="708" VerticalAlignment="Center" Width="1218" Source="/extras/login2.jpg" Stretch="Fill" Opacity="0.5"/>
+        <Image HorizontalAlignment="Center" Height="708" VerticalAlignment="Center" Width="1172" Source="/extras/login2.jpg" Stretch="Fill" Opacity="0.5"/>
         <Rectangle HorizontalAlignment="Left" Height="603" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="48,0,0,0" RadiusX="30" RadiusY="30" Opacity="0.8"/>
         <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1172" Fill="#FF231327"/>
         <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="1190" Fill="#FF231327" Margin="0,678,0,0"/>
