@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="Inicio" Height="724" Width="1190" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Rectangle HorizontalAlignment="Center" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="556*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190" Grid.ColumnSpan="2">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
@@ -26,7 +30,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="804" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" Margin="340,130,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="804" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" Margin="340,130,0,0" Grid.ColumnSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="675" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="10,0,0,0" RadiusX="30" RadiusY="30"/>
         <Rectangle HorizontalAlignment="Left" Height="143" Margin="10,10,0,0" VerticalAlignment="Top" Width="312" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" Stroke="White" StrokeDashCap="Round" RadiusX="30" RadiusY="30"/>
         <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="104,24,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
@@ -63,7 +67,7 @@
         <Image HorizontalAlignment="Left" Height="44" Margin="78,604,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/log-out.png" RenderTransformOrigin="0.562,0.156"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="80,317,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Rectangle HorizontalAlignment="Left" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1">
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1" Grid.ColumnSpan="2">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

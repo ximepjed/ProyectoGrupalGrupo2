@@ -45,9 +45,9 @@
         <Button Content="Ingresar" HorizontalAlignment="Left" Height="37" Margin="896,516,0,0" VerticalAlignment="Top" Width="138" Background="#FFF9E9FF" Foreground="#FF3A1A46" ButtonBase.Click="Ingreso_inicio" FontSize="20" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" BorderBrush="{x:Null}" UseLayoutRounding="True"/>
 
         <Button Content="¿Olvidaste tu contraseña?" HorizontalAlignment="Left" Height="30" Margin="837,466,0,0" VerticalAlignment="Top" Width="249" Foreground="#FFE4CCED" ButtonBase.Click="Error_Pass" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <PasswordBox HorizontalAlignment="Left" Height="21" Margin="832,433,0,0" VerticalAlignment="Top" Width="254" SelectionBrush="#FFC080D8" BorderBrush="White"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="832,378,0,0" TextWrapping="Wrap" Text="Digite su usuario..." VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32"/>
         <Image HorizontalAlignment="Left" Height="97" Margin="789,127,0,0" VerticalAlignment="Top" Width="96" Source="/Imágenes_proyecto/Logo1.png"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="24" Margin="836,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtContra" HorizontalAlignment="Left" Height="24" Margin="837,437,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" SelectionBrush="#FFC080D8" BorderBrush="White" Foreground="#FF290D32" TextChanged="TextBox_TextChanged"/>
 
 
     </Grid>
