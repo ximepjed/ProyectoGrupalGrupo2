@@ -66,7 +66,7 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_Rooster(object sender, RoutedEventArgs e)
         {
-            //hacer ventana
+            //hacer ventana con herencia
         }
 
  

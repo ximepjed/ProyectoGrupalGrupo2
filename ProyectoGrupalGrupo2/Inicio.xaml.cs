@@ -38,10 +38,6 @@ namespace ProyectoGrupalGrupo2
             curso_individual.Owner = this;
             curso_individual.Show();
         }
-        private void Salir_total(object sender, RoutedEventArgs e)
-        {
-           //idk como hacerla
-        }
 
         private void Button_InfoPer(object sender, RoutedEventArgs e)
         {
