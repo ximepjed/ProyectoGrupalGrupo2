@@ -26,10 +26,18 @@ namespace ProyectoGrupalGrupo2
 
         private void Ingreso_inicio(object sender, RoutedEventArgs e)
         {
-            Inicio inicio = new Inicio();
+            if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && txtContra.Text == "cgarciac")
+            {
+                Inicio inicio = new Inicio();
+                inicio.Show();
 
-            inicio.Owner = this;
-            inicio.Show();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Usuario u contraseña incorrectos");
+            }
         }
         private void Error_Pass(object sender, RoutedEventArgs e)
         {
@@ -37,6 +45,16 @@ namespace ProyectoGrupalGrupo2
 
             password_error.Owner = this;
             password_error.Show();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
