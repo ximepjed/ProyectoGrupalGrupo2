@@ -24,15 +24,33 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
+       
         private void Button_Salir(object sender, RoutedEventArgs e)
         { // salida del sistema
 
             System.Windows.Application.Current.Shutdown();
+        }
+
+        private void TextBox1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Agregar1(object sender, RoutedEventArgs e)
+        {
+            Nota1.Text = Ingresar1.Text;
+
+        }
+
+        private void Button_Agregar2(object sender, RoutedEventArgs e)
+        {
+            Nota2.Text = Ingresar2.Text;
+
         }
     }
 }
