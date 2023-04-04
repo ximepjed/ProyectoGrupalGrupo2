@@ -72,6 +72,8 @@ namespace ProyectoGrupalGrupo2
                 if (Grade2 >= 70) { Estado2.Text = "Aprobado"; }
             }
 
+
+
         }
     }
 }
