@@ -41,9 +41,14 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void Button_Agregar1(object sender, RoutedEventArgs e)
+        public void Button_Agregar1(object sender, RoutedEventArgs e)
         {
+            int Grade1 = 0;
+            Grade1 = Ingresar1.Text;
             Nota1.Text = Ingresar1.Text;
+
+            if (Grade1<70) { Estado1.Text= "Desaprobado"};
+            if (Grade1>=70) { Estado1.Text="Aprobado"};
 
         }
 
