@@ -30,9 +30,11 @@ namespace ProyectoGrupalGrupo2
             {
                 Inicio inicio = new Inicio();
                 inicio.Show();
-
-
-
+            }
+            if (txtUsuario.Text == "0" && txtContra.Text == "0")
+            {
+                Inicio inicio = new Inicio();
+                inicio.Show();
             }
             else
             {

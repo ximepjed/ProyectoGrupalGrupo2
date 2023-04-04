@@ -63,8 +63,8 @@ namespace ProyectoGrupalGrupo2
            
             int Grade2;
             Grade2 = int.Parse(Ingresar2.Text);
-            if (Grade2 > 100) { MessageBox.Show("La nota debe de estar entre 0 y 100"); }
             if (Grade2 < 0) { MessageBox.Show("La nota debe de estar entre 0 y 100"); }
+            if (Grade2 > 100) { MessageBox.Show("La nota debe de estar entre 0 y 100"); }
 
             else {
                 Nota2.Text = Ingresar2.Text;
