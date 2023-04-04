@@ -71,7 +71,7 @@ namespace ProyectoGrupalGrupo2
 
  
         private void Button_Cerrar(object sender, RoutedEventArgs e)
-        {
+        {// salida de la app
             System.Windows.Application.Current.Shutdown();
         }
 

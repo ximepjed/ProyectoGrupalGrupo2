@@ -25,7 +25,7 @@
         <CheckBox Content="Presente" HorizontalAlignment="Left" Margin="437,254,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
         <CheckBox Content="Justificado" HorizontalAlignment="Left" Margin="554,256,0,0" VerticalAlignment="Top" Height="22" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
         <CheckBox Content="Ausente" HorizontalAlignment="Left" Margin="686,259,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
     </Grid>
 </Window>

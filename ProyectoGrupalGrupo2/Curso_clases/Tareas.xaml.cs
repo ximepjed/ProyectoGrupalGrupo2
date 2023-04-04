@@ -38,5 +38,10 @@ namespace ProyectoGrupalGrupo2
         {
 
         }
+
+        private void Button_Salir(object sender, RoutedEventArgs e)
+        {//salida del sistema
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }

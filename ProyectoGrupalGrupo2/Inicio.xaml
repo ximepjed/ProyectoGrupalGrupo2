@@ -55,7 +55,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Salir_total" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Button_SignOut" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Button Content="Sign Out" HorizontalAlignment="Left" Height="54" Margin="61,599,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Click="Button_SignOut"/>
         <Rectangle HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Button Content="Diseño de Aplicaciones de Software&#xA;            1C2023-164008G2" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>

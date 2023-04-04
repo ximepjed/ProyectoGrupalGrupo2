@@ -48,7 +48,7 @@ namespace ProyectoGrupalGrupo2
  
   
         private void Button_SignOut(object sender, RoutedEventArgs e)
-        {
+        {//salida de la app
             System.Windows.Application.Current.Shutdown();
         }
     }
