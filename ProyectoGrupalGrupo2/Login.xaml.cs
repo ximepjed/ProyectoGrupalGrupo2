@@ -22,6 +22,7 @@ namespace ProyectoGrupalGrupo2
         public Login()
         {
             InitializeComponent();
+            
         }
 
         private void Ingreso_inicio(object sender, RoutedEventArgs e)
@@ -38,7 +39,8 @@ namespace ProyectoGrupalGrupo2
             }
             else
             {
-                MessageBox.Show("Usuario u contraseña incorrectos");
+                MessageBoxResult res;
+                res = MessageBox.Show("¡Lo sentimos! Usuario u contraseña incorrectos", "Acceso denegado", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
         private void Error_Pass(object sender, RoutedEventArgs e)
@@ -51,11 +53,13 @@ namespace ProyectoGrupalGrupo2
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+
         {
+
 
         }
     }

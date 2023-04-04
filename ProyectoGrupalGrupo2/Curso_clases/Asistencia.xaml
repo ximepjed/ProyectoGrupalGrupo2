@@ -14,18 +14,124 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Label Content=" Diseño de aplicaciones web 1C2023-164008G2" HorizontalAlignment="Left" Margin="33,62,0,0" VerticalAlignment="Top" Height="48" Width="732" Foreground="White" FontSize="36" FontFamily="Tw Cen MT"/>
-        <Label Content="Asistencia" HorizontalAlignment="Left" Margin="45,20,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Height="42"/>
+        <Label Content="Asistencia" HorizontalAlignment="Left" Margin="45,20,0,0" VerticalAlignment="Top" Width="168" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Height="42"/>
         <Label Content="Alejandro Durán Altamirano" HorizontalAlignment="Left" Margin="92,168,0,0" VerticalAlignment="Top" Height="42" Width="288" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="103,249,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="33,162,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="33,238,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
-        <CheckBox Content="Presente" HorizontalAlignment="Left" Margin="437,176,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22" Checked="CheckBox_Checked"/>
-        <CheckBox Content="Justificado" HorizontalAlignment="Left" Margin="554,178,0,0" VerticalAlignment="Top" Height="22" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
-        <CheckBox Content="Ausente" HorizontalAlignment="Left" Margin="686,181,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
-        <CheckBox Content="Presente" HorizontalAlignment="Left" Margin="437,254,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
-        <CheckBox Content="Justificado" HorizontalAlignment="Left" Margin="554,256,0,0" VerticalAlignment="Top" Height="22" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
-        <CheckBox Content="Ausente" HorizontalAlignment="Left" Margin="686,259,0,0" VerticalAlignment="Top" Height="23" Width="112" Foreground="White" FontFamily="Tw Cen MT" FontSize="22"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
+        <TextBox x:Name="Nota1" TextWrapping="Wrap" Width="120" Margin="864,173,206,496" FontSize="24" TextChanged="Nota1_TextChanged"/>
+        <TextBox x:Name="Nota2" TextWrapping="Wrap" Width="120" Margin="864,250,206,417" FontSize="24" TextChanged="Nota2_TextChanged"/>
+        <Button Content="Presente" RenderTransformOrigin="0.5,0.5" Margin="408,174,643,499" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.54"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Presente" RenderTransformOrigin="0.5,0.5" Margin="408,250,643,423" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.54"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Justificado" RenderTransformOrigin="0.5,0.5" Margin="568,250,483,423" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.54"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Justificado" RenderTransformOrigin="0.5,0.5" Margin="569,177,482,496" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.54"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Justificado" RenderTransformOrigin="0.5,0.5" Margin="568,250,483,423" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.54"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF3A1A46" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label Content=" Diseño de aplicaciones web 1C2023-164008G2" HorizontalAlignment="Left" Margin="33,62,0,0" VerticalAlignment="Top" Height="48" Width="784" Foreground="White" FontSize="36" FontFamily="Tw Cen MT"/>
+            <Label Content="Asistencia" HorizontalAlignment="Left" Margin="45,20,0,0" VerticalAlignment="Top" Width="168" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Height="42"/>
+            <Label Content="Alejandro Durán Altamirano" HorizontalAlignment="Left" Margin="92,168,0,0" VerticalAlignment="Top" Height="42" Width="288" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+            <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="103,249,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="33,162,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="33,238,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
+            <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
+            <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
+            <TextBox x:Name="AusenciaNota1" TextWrapping="Wrap" Width="120" Margin="917,175,153,494" FontSize="24" TextChanged="Nota1_TextChanged" Text="100"/>
+            <TextBox x:Name="AusenciaNota2" TextWrapping="Wrap" Width="120" Margin="917,248,153,419" FontSize="24" TextChanged="Nota2_TextChanged" Text="100"/>
+            <Button x:Name="Presente1" Content="Presente" RenderTransformOrigin="0.5,0.5" Margin="408,174,643,499" Click="Button_Click" BorderBrush="#FF2A5B04" Background="#FFC1E6A4" FontSize="16" FontWeight="Bold">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.54"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="Presente2" Content="Presente" RenderTransformOrigin="0.5,0.5" Margin="408,250,643,423" Click="Button_Click" BorderBrush="#FF2A5B04" Background="#FFC1E6A4" FontSize="16" FontWeight="Bold">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.54"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="AusenciaNota_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="728,176,323,497" Click="Button_Click" FontSize="16" FontWeight="Bold" Background="#FFEDBEBE" BorderBrush="#FFF10707">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.54"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="Justificado2" Content="Justificado" Margin="570,251,486,423" RenderTransformOrigin="0.5,0.5" Background="#FFCECFF7" BorderBrush="#FF2411F7" FontSize="16" FontWeight="Bold" Click="Justificado2_Click">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.212"/>
+                        <RotateTransform Angle="-0.492"/>
+                        <TranslateTransform X="-0.034" Y="-0.005"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Grid>
+        <Button x:Name="AusenciaNota_2" Content="Ausente" Margin="728,251,326,424" Background="#FFEDBEBE" BorderBrush="#FFF10707" FontSize="16" FontWeight="Bold" Click="AusenciaNota_2_Click"/>
+        <Button x:Name="Justificado1" Content="Justificado" Margin="568,175,485,498" Background="#FFCECFF7" BorderBrush="#FF2411F7" FontSize="16" FontWeight="Bold" Click="Justificado1_Click"/>
     </Grid>
 </Window>
