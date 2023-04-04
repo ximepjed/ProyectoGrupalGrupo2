@@ -42,9 +42,9 @@ namespace ProyectoGrupalGrupo2
         }
 
         public void Button_Agregar1(object sender, RoutedEventArgs e)
-        {
+        {// convertirlo en herencias y declarar para que no cambien solo por cerrar esta ventana 
             int Grade1 = 0;
-            Grade1 = Ingresar1.Text;
+            //Grade1 = Ingresar1.Text;
             Nota1.Text = Ingresar1.Text;
 
             if (Grade1<70) { Estado1.Text= "Desaprobado"};
