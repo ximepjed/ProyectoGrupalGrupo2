@@ -34,5 +34,21 @@ namespace ProyectoGrupalGrupo2
 
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Button_Agregar(object sender, RoutedEventArgs e)
+        {
+            TextBlock.Text
+
+        }
+
+        private void TextBox(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox1(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
