@@ -19,16 +19,16 @@
         <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="103,249,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="33,162,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="33,238,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
-        <TextBox x:Name="Ingresar1" HorizontalAlignment="Left" Margin="399,174,0,0" TextWrapping="Wrap" Text="Ingrese la nota aquí" VerticalAlignment="Top" Width="122" FontFamily="Tw Cen MT" FontSize="14" Height="30" TextChanged="TextBox1"/>
-        <TextBox x:Name="Ingresar2" HorizontalAlignment="Left" Margin="399,249,0,0" TextWrapping="Wrap" Text="Ingrese la nota aquí" VerticalAlignment="Top" Width="122" FontFamily="Tw Cen MT" FontSize="14" Height="30" TextChanged="TextBox2"/>
+        <TextBox x:Name="Ingresar1" HorizontalAlignment="Left" Margin="399,174,0,0" TextWrapping="Wrap" Text="Ingrese la nota aquí" VerticalAlignment="Top" Width="122" FontFamily="Tw Cen MT" FontSize="14" Height="30" TextChanged="TextBox1" TextAlignment="Center"/>
+        <TextBox x:Name="Ingresar2" HorizontalAlignment="Left" Margin="399,249,0,0" TextWrapping="Wrap" Text="Ingrese la nota aquí" VerticalAlignment="Top" Width="122" FontFamily="Tw Cen MT" FontSize="14" Height="30" TextChanged="TextBox2" TextAlignment="Center"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
-        <TextBlock x:Name="Nota1" HorizontalAlignment="Left" Margin="826,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="69" FontSize="16" Background="White"/>
-        <TextBlock x:Name="Nota2" HorizontalAlignment="Left" Margin="825,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="70" Background="White" FontSize="16"/>
+        <TextBlock x:Name="Nota1" HorizontalAlignment="Left" Margin="826,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="69" FontSize="16" Background="White" TextAlignment="Center"/>
+        <TextBlock x:Name="Nota2" HorizontalAlignment="Left" Margin="825,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="70" Background="White" FontSize="16" TextAlignment="Center"/>
         <Button x:Name="Agregar1" Content="Agregar nota" HorizontalAlignment="Left" Margin="546,174,0,0" VerticalAlignment="Top" Height="28" Width="76" Click="Button_Agregar1"/>
         <Button x:Name="Agregar2" Content="Agregar nota" HorizontalAlignment="Left" Margin="546,249,0,0" VerticalAlignment="Top" Height="28" Width="76" Click="Button_Agregar2"/>
-        <TextBlock x:Name="Estado1" HorizontalAlignment="Left" Margin="948,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="134" Background="White"/>
-        <TextBlock x:Name="Estado2" HorizontalAlignment="Left" Margin="948,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="134" Background="White"/>
+        <TextBlock x:Name="Estado1" HorizontalAlignment="Left" Margin="948,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="134" Background="White" TextAlignment="Center"/>
+        <TextBlock x:Name="Estado2" HorizontalAlignment="Left" Margin="948,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" RenderTransformOrigin="1.205,-0.447" Width="134" Background="White" TextAlignment="Center"/>
         <Label Content="Nota" HorizontalAlignment="Left" Margin="837,127,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
         <Label Content="Estado" HorizontalAlignment="Left" Margin="991,127,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" RenderTransformOrigin="2.691,0.579" FontSize="14"/>
 
