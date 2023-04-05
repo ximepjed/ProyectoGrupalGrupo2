@@ -73,8 +73,8 @@ namespace ProyectoGrupalGrupo2
                 //variables para el cambio de color o brush
                 var bc = new BrushConverter();
 
-                if (Grade2 < 70) { Estado2.Text = "Reprobado"; Estado1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
-                if (Grade2 >= 70) { Estado2.Text = "Aprobado"; Estado1.Background = bc.ConvertFrom("#FF6CB329") as Brush; }
+                if (Grade2 < 70) { Estado2.Text = "Reprobado"; Estado2.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
+                if (Grade2 >= 70) { Estado2.Text = "Aprobado"; Estado2.Background = bc.ConvertFrom("#FF6CB329") as Brush; }
             }
 
 
