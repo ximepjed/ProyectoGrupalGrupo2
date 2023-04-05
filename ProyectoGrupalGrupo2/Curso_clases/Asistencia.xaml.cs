@@ -61,19 +61,19 @@ namespace ProyectoGrupalGrupo2
 
             if (cont1 == 1)
             {
-                AusenciaNota2.Text = "90";
+                AusenciaNota1.Text = "90";
 
             }
 
             if (cont1 == 2)
             {
-                AusenciaNota2.Text = "80";
+                AusenciaNota1.Text = "80";
 
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota2.Text = "70";
+                AusenciaNota1.Text = "70";
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -125,26 +125,26 @@ namespace ProyectoGrupalGrupo2
 
             if (cont1 == 1)
             {
-                AusenciaNota2.Text = "90";
+                AusenciaNota1.Text = "90";
 
             }
 
             if (cont1 == 2)
             {
-                AusenciaNota2.Text = "80";
+                AusenciaNota1.Text = "80";
 
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota2.Text = "70";
+                AusenciaNota1.Text = "70";
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
 
             if (cont1 == 4)
             {
-                AusenciaNota2.Text = "60";
+                AusenciaNota1.Text = "60";
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
