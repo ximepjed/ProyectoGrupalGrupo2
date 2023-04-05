@@ -51,7 +51,9 @@ namespace ProyectoGrupalGrupo2
 
             else {
                 Nota1.Text = Ingresar1.Text;
-                if (Grade1 < 70) { Estado1.Text = "Reprobado"; }
+                var bc = new BrushConverter();
+
+                if (Grade1 < 70) { Estado1.Text = "Reprobado"; Estado1.Background = bc.ConvertFrom("#FF6CB329") as Brush; }
                 if (Grade1 >= 70) { Estado1.Text = "Aprobado"; }
             }
            
