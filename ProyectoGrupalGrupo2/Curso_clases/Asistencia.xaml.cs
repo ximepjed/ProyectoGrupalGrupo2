@@ -64,7 +64,7 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 1)
             {
                 Nota_asistencia1.Text = "90";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFC6DE36") as Brush; }
 
             }
 
@@ -102,7 +102,7 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 1)
             {
                 Nota_asistencia2.Text = "90";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFC6DE36") as Brush; }
             }
 
             if (cont2 == 2)
@@ -138,7 +138,7 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 1)
             {
                 Nota_asistencia1.Text = "90";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFC6DE36") as Brush; }
             }
 
             if (cont1 == 2)
@@ -175,7 +175,7 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 1)
             {
                 Nota_asistencia2.Text = "90";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFC6DE36") as Brush; }
             }
 
             if (cont2 == 2)
