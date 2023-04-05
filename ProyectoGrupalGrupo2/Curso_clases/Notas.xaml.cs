@@ -51,6 +51,7 @@ namespace ProyectoGrupalGrupo2
 
             else {
                 Nota1.Text = Ingresar1.Text;
+                //variables para el cambio de color o brush
                 var bc = new BrushConverter();
 
                 if (Grade1 < 70) { Estado1.Text = "Reprobado"; Estado1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
@@ -69,8 +70,11 @@ namespace ProyectoGrupalGrupo2
 
             else {
                 Nota2.Text = Ingresar2.Text;
-                if (Grade2 < 70) { Estado2.Text = "Reprobado"; }
-                if (Grade2 >= 70) { Estado2.Text = "Aprobado"; }
+                //variables para el cambio de color o brush
+                var bc = new BrushConverter();
+
+                if (Grade2 < 70) { Estado2.Text = "Reprobado"; Estado1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
+                if (Grade2 >= 70) { Estado2.Text = "Aprobado"; Estado1.Background = bc.ConvertFrom("#FF6CB329") as Brush; }
             }
 
 
