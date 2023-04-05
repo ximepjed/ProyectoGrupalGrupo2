@@ -37,9 +37,9 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="LecturaBDA78" HorizontalAlignment="Left" Margin="68,94,0,0" VerticalAlignment="Top" Width="110" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="24" IsEnabled="False"/>
-        <Button Content="BDA78.pdf" HorizontalAlignment="Left" Margin="198,94,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="20" Width="64" Click="Button_Click"/>
+        <Button Content="BDA78.pdf" HorizontalAlignment="Left" Margin="198,94,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="20" Width="64" />
         <Label Content="PPT.Paginas_WPF" HorizontalAlignment="Left" Margin="68,126,0,0" VerticalAlignment="Top" Width="110" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="28" IsEnabled="False"/>
-        <Button Content="WPFPags.ppt" HorizontalAlignment="Left" Margin="198,130,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="18" Width="64" Click="Button_Click_1"/>
+        <Button Content="WPFPags.ppt" HorizontalAlignment="Left" Margin="198,130,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="18" Width="64" />
         <Label Content="Lectura de la semana, una introducción al tema de Stacks y Navegación entre páginas." HorizontalAlignment="Left" Margin="280,94,0,0" VerticalAlignment="Top" Width="399" Foreground="White" FontSize="11" FontFamily="Tw Cen MT" Height="22" Background="{x:Null}"/>
         <Image HorizontalAlignment="Left" Height="20" Margin="30,96,0,0" VerticalAlignment="Top" Width="36" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Image HorizontalAlignment="Left" Height="20" Margin="30,130,0,0" VerticalAlignment="Top" Width="36" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>

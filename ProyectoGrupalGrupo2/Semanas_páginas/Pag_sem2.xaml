@@ -37,7 +37,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="PPT.BotonesWPF" HorizontalAlignment="Left" Margin="68,94,0,0" VerticalAlignment="Top" Width="118" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="24" IsEnabled="False"/>
-        <Button Content="BotonWPF.ppt" HorizontalAlignment="Left" Margin="192,94,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="20" Width="76" Click="Button_Click"/>
+        <Button Content="BotonWPF.ppt" HorizontalAlignment="Left" Margin="192,94,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="20" Width="76" />
         <Label Content="Presentación PowerPoint utilizada para el tema de los botones de WPF." HorizontalAlignment="Left" Margin="280,94,0,0" VerticalAlignment="Top" Width="376" Foreground="White" FontSize="11" FontFamily="Tw Cen MT" Height="22" Background="{x:Null}"/>
         <Image HorizontalAlignment="Left" Height="20" Margin="30,96,0,0" VerticalAlignment="Top" Width="36" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Rectangle HorizontalAlignment="Left" Height="0" Margin="150,120,0,0" Stroke="White" VerticalAlignment="Top" Width="62" Fill="White" RenderTransformOrigin="0.5,1">
