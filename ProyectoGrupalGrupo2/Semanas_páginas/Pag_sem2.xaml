@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ProyectoGrupalGrupo2.Semanas_páginas"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Semana2">
+      Title="Pag_sem2">
 
     <Grid Background="White">
         

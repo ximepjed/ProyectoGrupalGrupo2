@@ -17,7 +17,7 @@ namespace ProyectoGrupalGrupo2.Semanas_páginas
     /// <summary>
     /// Lógica de interacción para Pag_sem1.xaml
     /// </summary>
-    public partial class Pag_sem1 : Window
+    public partial class Pag_sem1 : Page
     {
         public Pag_sem1()
         {
