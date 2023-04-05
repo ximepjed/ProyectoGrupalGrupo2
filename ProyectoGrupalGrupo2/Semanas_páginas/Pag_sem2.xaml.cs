@@ -24,5 +24,10 @@ namespace ProyectoGrupalGrupo2.Semanas_páginas
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
