@@ -58,7 +58,7 @@
         </Button>
         <Button x:Name="Justificado1" Content="Justificado" Margin="638,169,442,504" Background="#FF74BAD8" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="Justificado1_Click" Foreground="White"/>
         <Button x:Name="Presente2" Content="Presente" Margin="483,254,604,421" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
-        <Button x:Name="AusenciaNota_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,167,281,506" Click="Button_Ausente1" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White"></Button>
+        <Button x:Name="AusenciaNota_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,167,281,506" Click="Ausente1_Click" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White"></Button>
         <Button x:Name="Presente1" Content="Presente" Margin="483,169,604,504" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
     </Grid>

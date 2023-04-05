@@ -55,7 +55,7 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void Button_Ausente1(object sender, RoutedEventArgs e)
+        private void Ausente1_Click(object sender, RoutedEventArgs e)
         {
             cont1++;
 
@@ -87,7 +87,7 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void AusenciaNota_2_Click(object sender, RoutedEventArgs e)
+        private void Ausencia2_Click(object sender, RoutedEventArgs e)
         {
             cont2++;
 
