@@ -39,10 +39,10 @@ namespace ProyectoGrupalGrupo2
             }
             else
             {
-                Error_de_credenciales  error_credenciales = new Error_de_credenciales();
+                Error_de_credenciales credenciales_error = new Error_de_credenciales();
 
-                error_credenciales.Owner = this;
-                error_credenciales.Show();
+                credenciales_error.Owner = this;
+                credenciales_error.Show();
             }
         }
         private void Error_Pass(object sender, RoutedEventArgs e)
@@ -51,6 +51,16 @@ namespace ProyectoGrupalGrupo2
 
             password_error.Owner = this;
             password_error.Show();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
