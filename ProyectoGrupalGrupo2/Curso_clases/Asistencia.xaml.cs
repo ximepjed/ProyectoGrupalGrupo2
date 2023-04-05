@@ -138,20 +138,20 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 1)
             {
                 Nota_asistencia1.Text = "90";
-                { Nota_asistencia1.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
             }
 
             if (cont1 == 2)
             {
                 Nota_asistencia1.Text = "80";
-                { Nota_asistencia1.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
 
             }
 
             if (cont1 == 3)
             {
                 Nota_asistencia1.Text = "70";
-                { Nota_asistencia1.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -159,7 +159,7 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 4)
             {
                 Nota_asistencia1.Text = "60";
-                { Nota_asistencia1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -175,20 +175,20 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 1)
             {
                 Nota_asistencia2.Text = "90";
-                { Nota_asistencia2.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
             }
 
             if (cont2 == 2)
             {
                 Nota_asistencia2.Text = "80";
-                { Nota_asistencia2.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
 
             }
 
             if (cont2 == 3)
             {
                 Nota_asistencia2.Text = "70";
-                { Nota_asistencia2.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -196,7 +196,7 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 4)
             {
                 Nota_asistencia2.Text = "60";
-                { Nota_asistencia2.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
