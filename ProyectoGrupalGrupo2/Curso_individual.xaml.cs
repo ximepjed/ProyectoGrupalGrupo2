@@ -54,7 +54,6 @@ namespace ProyectoGrupalGrupo2
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
-            //configurar
         }
 
         private void Button_Tarea(object sender, RoutedEventArgs e)
@@ -75,6 +74,65 @@ namespace ProyectoGrupalGrupo2
             System.Windows.Application.Current.Shutdown();
         }
 
-
+        private void Button_sem1(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem1());
+        }
+        private void Button_sem2(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem2());
+        }
+        private void Button_sem3(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem3());
+        }
+        private void Button_sem4(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem4());
+        }
+        private void Button_sem5(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem5());
+        }
+        private void Button_sem6(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem6());
+        }
+        private void Button_sem7(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem7());
+        }
+        private void Button_sem8(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem8());
+        }
+        private void Button_sem9(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem9());
+        }
+        private void Button_sem10(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem10());
+        }
+        private void Button_sem11(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem11());
+        }
+        private void Button_sem12(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem12());
+        }
+        private void Button_sem13(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem13());
+        }
+        private void Button_sem14(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem14());
+        }
+        private void Button_sem15(object sender, RoutedEventArgs e)
+        {
+            Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem15());
+        }
     }
 }

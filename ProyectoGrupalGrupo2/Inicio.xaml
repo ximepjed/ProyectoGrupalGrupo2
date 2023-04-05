@@ -7,11 +7,7 @@
         mc:Ignorable="d"
         Title="Inicio" Height="724" Width="1190" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="556*"/>
-            <ColumnDefinition Width="39*"/>
-        </Grid.ColumnDefinitions>
-        <Rectangle HorizontalAlignment="Left" Height="724" Stroke="Black" VerticalAlignment="Center" Width="1190" Grid.ColumnSpan="2">
+        <Rectangle HorizontalAlignment="Left" Height="724" Stroke="Black" VerticalAlignment="Top" Width="1190" Grid.ColumnSpan="2" Margin="0,-8,0,0" Grid.RowSpan="2">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.RelativeTransform>
@@ -30,44 +26,26 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="804" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" Margin="340,130,0,0" Grid.ColumnSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="675" VerticalAlignment="Center" Width="312" Fill="#FF452552" Margin="10,0,0,0" RadiusX="30" RadiusY="30"/>
+        <Rectangle HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="804" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" Margin="340,130,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="675" VerticalAlignment="Top" Width="312" Fill="#FF452552" Margin="10,17,0,0" RadiusX="30" RadiusY="30" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="143" Margin="10,10,0,0" VerticalAlignment="Top" Width="312" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" Stroke="White" StrokeDashCap="Round" RadiusX="30" RadiusY="30"/>
         <Label Content="ULACIT" HorizontalAlignment="Left" Height="56" Margin="104,24,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
         <Label Content="WhiteBoard" HorizontalAlignment="Left" Height="43" Margin="104,64,0,0" VerticalAlignment="Top" Width="218" FontFamily="Tw Cen MT" FontSize="36" Foreground="White" FontWeight="Medium"/>
         <Label Content="Profesores" HorizontalAlignment="Left" Height="35" Margin="104,112,0,0" VerticalAlignment="Top" Width="76" FontFamily="Tw Cen MT" FontSize="16" Foreground="White" FontWeight="Medium"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="23,44,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
-        <Rectangle HorizontalAlignment="Left" Height="1" Margin="104,112,0,0" Stroke="White" VerticalAlignment="Top" Width="179" Fill="White" RenderTransformOrigin="0.5,1">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="104,112,0,0" Stroke="White" VerticalAlignment="Top" Width="179" Fill="White" RenderTransformOrigin="0.5,1"></Rectangle>
         <Label Content="¡Bienvenido!" HorizontalAlignment="Left" Height="44" Margin="142,182,0,0" VerticalAlignment="Top" Width="128" FontSize="20" Foreground="White" FontWeight="Medium"/>
-        <Label Content="Cursos" HorizontalAlignment="Left" Height="34" Margin="142,327,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.184,0.563"/>
-        <Rectangle HorizontalAlignment="Left" Height="1" Margin="90,371,0,0" Stroke="White" VerticalAlignment="Top" Width="180" Fill="White" RenderTransformOrigin="0.5,1">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Button_SignOut" Margin="62,599,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Button Content="Sign Out" HorizontalAlignment="Left" Height="54" Margin="61,599,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Click="Button_SignOut"/>
-        <Rectangle HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
-        <Button Content="Diseño de Aplicaciones de Software&#xA;            1C2023-164008G2" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="43" Margin="30,391,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>
-        <Label Content="Privacy&#xA;Terms" HorizontalAlignment="Left" Height="35" Margin="16,653,0,0" VerticalAlignment="Top" Width="60" FontFamily="Tw Cen MT" FontSize="11" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="78,604,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/log-out.png" RenderTransformOrigin="0.562,0.156"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,317,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
-        <Rectangle HorizontalAlignment="Left" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
-        <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1" Grid.ColumnSpan="2">
+        <Label Content="Cursos" HorizontalAlignment="Left" Height="34" Margin="142,327,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.184,0.563" Grid.RowSpan="2"/>
+       
+        <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Button_SignOut" Margin="62,612,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
+        <Button Content="Sign Out" HorizontalAlignment="Left" Height="54" Margin="71,612,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Click="Button_SignOut"/>
+        <Rectangle HorizontalAlignment="Left" Height="43" Margin="26,387,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Diseño de Aplicaciones de Software&#xA;            1C2023-164008G2" ButtonBase.Click="Clase_boton" HorizontalAlignment="Left" Height="42" Margin="26,388,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>
+        <Label Content="Privacy&#xA;Terms" HorizontalAlignment="Left" Height="35" Margin="11,639,0,0" VerticalAlignment="Top" Width="60" FontFamily="Tw Cen MT" FontSize="11" Foreground="White" FontWeight="Medium"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,617,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/log-out.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,317,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -84,7 +62,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="34" Margin="550,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
-        <Button Content="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="#FF2B1235" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed"/>
+        <Button Content="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="#FF2B1235" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed" Grid.RowSpan="2"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="73,252,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/user.png" RenderTransformOrigin="0.562,0.156">
             <Image.RenderTransform>
                 <TransformGroup>
