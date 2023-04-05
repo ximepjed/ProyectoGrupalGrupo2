@@ -45,42 +45,44 @@ namespace ProyectoGrupalGrupo2
             
         }
 
-        private void Nota1_TextChanged(object sender, TextChangedEventArgs e)
+        private void Asistencia1_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void Nota2_TextChanged(object sender, TextChangedEventArgs e)
+        private void Asistencia2_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
         private void Ausente1_Click(object sender, RoutedEventArgs e)
         {
+            //variables para el cambio de color o brush
+            var bc = new BrushConverter();
             cont1++;
 
             if (cont1 == 1)
             {
-                AusenciaNota1.Text = "90";
+                Nota_asistencia1.Text = "90";{ Nota_asistencia1.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
 
             }
 
             if (cont1 == 2)
             {
-                AusenciaNota1.Text = "80";
+                Nota_asistencia1.Text = "80";{ Nota_asistencia1.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
 
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota1.Text = "70";
+                Nota_asistencia1.Text = "70";{ Nota_asistencia1.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
 
             if (cont1 == 4)
             {
-                AusenciaNota2.Text = "60";
+                Nota_asistencia2.Text = "60";{ Nota_asistencia1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -89,30 +91,32 @@ namespace ProyectoGrupalGrupo2
 
         private void Ausencia2_Click(object sender, RoutedEventArgs e)
         {
+            //variables para el cambio de color o brush
+            var bc = new BrushConverter();
             cont2++;
 
             if (cont2 == 1)
             {
-                AusenciaNota2.Text = "90";
+                Nota_asistencia2.Text = "90";{ Nota_asistencia2.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
 
             }
 
             if (cont2 == 2)
             {
-                AusenciaNota2.Text = "80";
+                Nota_asistencia2.Text = "80";{ Nota_asistencia2.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
                 
             }
 
             if (cont2 == 3)
             {
-                AusenciaNota2.Text = "70";
+                Nota_asistencia2.Text = "70";{ Nota_asistencia2.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
 
             if (cont2 == 4)
             {
-                AusenciaNota2.Text = "60";
+                Nota_asistencia2.Text = "60";{ Nota_asistencia2.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -121,30 +125,32 @@ namespace ProyectoGrupalGrupo2
 
         private void Justificado1_Click(object sender, RoutedEventArgs e)
         {
+            //variables para el cambio de color o brush
+            var bc = new BrushConverter();
             cont1++;
 
             if (cont1 == 1)
             {
-                AusenciaNota1.Text = "90";
+                Nota_asistencia1.Text = "90";{ Nota_asistencia1.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
 
             }
 
             if (cont1 == 2)
             {
-                AusenciaNota1.Text = "80";
+                Nota_asistencia1.Text = "80";{ Nota_asistencia1.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
 
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota1.Text = "70";
+                Nota_asistencia1.Text = "70";{ Nota_asistencia1.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
 
             if (cont1 == 4)
             {
-                AusenciaNota1.Text = "60";
+                Nota_asistencia1.Text = "60";{ Nota_asistencia1.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -152,30 +158,33 @@ namespace ProyectoGrupalGrupo2
 
         private void Justificado2_Click(object sender, RoutedEventArgs e)
         {
+            //variables para el cambio de color o brush
+            var bc = new BrushConverter();
+
             cont2++;
 
             if (cont2 == 1)
             {
-                AusenciaNota2.Text = "90";
+                Nota_asistencia2.Text = "90";{ Nota_asistencia2.Background = bc.ConvertFrom("#FF80BB53") as Brush; }
 
             }
 
             if (cont2 == 2)
             {
-                AusenciaNota2.Text = "80";
+                Nota_asistencia2.Text = "80";{ Nota_asistencia2.Background = bc.ConvertFrom("#FFBAC329") as Brush; }
 
             }
 
             if (cont2 == 3)
             {
-                AusenciaNota2.Text = "70";
+                Nota_asistencia2.Text = "70";{ Nota_asistencia2.Background = bc.ConvertFrom("#FFE8A52E") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
 
             if (cont2 == 4)
             {
-                AusenciaNota2.Text = "60";
+                Nota_asistencia2.Text = "60";{ Nota_asistencia2.Background = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
