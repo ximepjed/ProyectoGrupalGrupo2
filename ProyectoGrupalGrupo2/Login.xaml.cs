@@ -39,8 +39,10 @@ namespace ProyectoGrupalGrupo2
             }
             else
             {
-                MessageBoxResult res;
-                res = MessageBox.Show("¡Lo sentimos! Usuario u contraseña incorrectos", "Acceso denegado", MessageBoxButton.OK, MessageBoxImage.Warning);
+                Error_de_credenciales  error_credenciales = new Error_de_credenciales();
+
+                error_credenciales.Owner = this;
+                error_credenciales.Show();
             }
         }
         private void Error_Pass(object sender, RoutedEventArgs e)
@@ -49,18 +51,6 @@ namespace ProyectoGrupalGrupo2
 
             password_error.Owner = this;
             password_error.Show();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            
-        }
-
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-
-        {
-
-
         }
     }
 }

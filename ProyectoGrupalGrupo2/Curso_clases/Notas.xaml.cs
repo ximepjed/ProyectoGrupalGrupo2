@@ -51,7 +51,7 @@ namespace ProyectoGrupalGrupo2
 
             else {
                 Nota1.Text = Ingresar1.Text;
-                if (Grade1 < 70) { Estado1.Text = "Desaprobado"; }
+                if (Grade1 < 70) { Estado1.Text = "Reprobado"; }
                 if (Grade1 >= 70) { Estado1.Text = "Aprobado"; }
             }
            
@@ -68,7 +68,7 @@ namespace ProyectoGrupalGrupo2
 
             else {
                 Nota2.Text = Ingresar2.Text;
-                if (Grade2 < 70) { Estado2.Text = "Desaprobado"; }
+                if (Grade2 < 70) { Estado2.Text = "Reprobado"; }
                 if (Grade2 >= 70) { Estado2.Text = "Aprobado"; }
             }
 
