@@ -55,8 +55,8 @@
         <Button x:Name="Ausencia_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,169,281,504" Click="Ausente1_Click" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White"></Button>
         <Button x:Name="Presente_1" Content="Presente" Margin="483,169,604,504" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
-        <Ellipse x:Name="Estado_de_asistencia1" HorizontalAlignment="Left" Height="45" Margin="1064,169,0,0" VerticalAlignment="Top" Width="47" Fill="White"/>
-        <Ellipse x:Name="Estado_de_asistencia2" HorizontalAlignment="Left" Height="45" Margin="1064,268,0,0" VerticalAlignment="Top" Width="47" Fill="White"/>
+        <Ellipse x:Name="Estado_de_asistencia1" HorizontalAlignment="Left" Height="45" Margin="1064,169,0,0" VerticalAlignment="Top" Width="47" Fill="#FF80BB53"/>
+        <Ellipse x:Name="Estado_de_asistencia2" HorizontalAlignment="Left" Height="45" Margin="1064,268,0,0" VerticalAlignment="Top" Width="47" Fill="#FF80BB53"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="72,237,0,0" Stroke="White" VerticalAlignment="Top" Width="1063" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>

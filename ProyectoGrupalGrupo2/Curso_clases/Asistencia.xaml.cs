@@ -64,21 +64,21 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 1)
             {
                 Nota_asistencia1.Text = "90";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
 
             }
 
             if (cont1 == 2)
             {
                 Nota_asistencia1.Text = "80";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFEDC538") as Brush; }
 
             }
 
             if (cont1 == 3)
             {
                 Nota_asistencia1.Text = "70";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFEF852C") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -102,19 +102,19 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 1)
             {
                 Nota_asistencia2.Text = "90";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
             }
 
             if (cont2 == 2)
             {
                 Nota_asistencia2.Text = "80";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFEDC538") as Brush; }
             }
 
             if (cont2 == 3)
             {
                 Nota_asistencia2.Text = "70";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFEF852C") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -138,20 +138,20 @@ namespace ProyectoGrupalGrupo2
             if (cont1 == 1)
             {
                 Nota_asistencia1.Text = "90";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
             }
 
             if (cont1 == 2)
             {
                 Nota_asistencia1.Text = "80";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFEDC538") as Brush; }
 
             }
 
             if (cont1 == 3)
             {
                 Nota_asistencia1.Text = "70";
-                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FFEF852C") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
@@ -175,20 +175,20 @@ namespace ProyectoGrupalGrupo2
             if (cont2 == 1)
             {
                 Nota_asistencia2.Text = "90";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FF80BB53") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFA5CE3D") as Brush; }
             }
 
             if (cont2 == 2)
             {
                 Nota_asistencia2.Text = "80";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFBAC329") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFEDC538") as Brush; }
 
             }
 
             if (cont2 == 3)
             {
                 Nota_asistencia2.Text = "70";
-                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFE8A52E") as Brush; }
+                { Estado_de_asistencia2.Fill = bc.ConvertFrom("#FFEF852C") as Brush; }
                 res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
