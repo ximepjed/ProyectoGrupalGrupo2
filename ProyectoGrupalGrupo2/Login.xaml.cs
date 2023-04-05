@@ -22,11 +22,11 @@ namespace ProyectoGrupalGrupo2
         public Login()
         {
             InitializeComponent();
-            
         }
 
         private void Ingreso_inicio(object sender, RoutedEventArgs e)
         {
+            //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
             if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && txtContra.Text == "cgarciac")
             {
                 Inicio inicio = new Inicio();
