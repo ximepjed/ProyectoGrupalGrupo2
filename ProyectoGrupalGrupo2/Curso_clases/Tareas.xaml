@@ -71,25 +71,25 @@
                 <GradientStop Color="#FE5F4572" Offset="0.683"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Rectangle HorizontalAlignment="Left" Height="577" Margin="45,100,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3">
+        <Rectangle HorizontalAlignment="Center" Height="577" Margin="0,100,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" d:IsLocked="True">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
 
-        <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2"/>
-        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium"/>
-        <Image HorizontalAlignment="Left" Height="76" Margin="1060,10,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
-        <Rectangle HorizontalAlignment="Center" Height="577" Margin="0,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
-        <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,118,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False" Grid.Row="1"/>
-        <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,118,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Grid.Row="1" Click="Button_Click"/>
-        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,115,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39" Grid.Row="1"/>
-        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,115,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Grid.Row="1" Click="Button_Click_2"/>
-        <Label Content="Laboratorio 02" HorizontalAlignment="Left" Margin="146,179,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False" Grid.Row="1"/>
-        <Button Content="Lab2.pdf" HorizontalAlignment="Left" Margin="332,183,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Grid.Row="1" Click="Button_Click_1"/>
-        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,179,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="38" Grid.Row="1"/>
-        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,182,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Grid.Row="1" Click="Button_Click_3"/>
-        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,118,0,0" VerticalAlignment="Top" Width="220" Foreground="Black" Grid.Row="1">
+        <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2" d:IsLocked="True"/>
+        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="1060,10,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png" d:IsLocked="True"/>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="40,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20" d:IsLocked="True"/>
+        <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,136,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
+        <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,136,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Click="Button_Click"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,133,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,133,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Click="Button_Click_2"/>
+        <Label Content="Laboratorio 02" HorizontalAlignment="Left" Margin="146,197,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
+        <Button Content="Lab2.pdf" HorizontalAlignment="Left" Margin="332,201,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Click="Button_Click_1"/>
+        <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,197,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="38"/>
+        <Button Content="Subir archivo resuelto aquí" HorizontalAlignment="Left" Margin="827,200,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="30" Width="229" Click="Button_Click_3"/>
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,136,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
             <DatePicker.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
                     <GradientStop Color="#FFA3AEB9"/>
@@ -99,7 +99,7 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,180,0,0" VerticalAlignment="Top" Width="220" Foreground="Black" Grid.Row="1">
+        <DatePicker HorizontalAlignment="Left" Height="27" Margin="582,198,0,0" VerticalAlignment="Top" Width="220" Foreground="Black">
             <DatePicker.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
                     <GradientStop Color="#FFA3AEB9"/>
@@ -109,8 +109,8 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,110,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.Row="1"/>
-        <Image HorizontalAlignment="Left" Height="44" Margin="80,173,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,128,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="80,191,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1074,650,0,0" VerticalAlignment="Top" Height="27" Width="78" Click="Button_Salir"/>
 
     </Grid>

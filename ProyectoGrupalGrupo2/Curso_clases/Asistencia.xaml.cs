@@ -28,8 +28,6 @@ namespace ProyectoGrupalGrupo2
         public Asistencia()
         {
             InitializeComponent();
-            
-
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -57,26 +55,34 @@ namespace ProyectoGrupalGrupo2
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Ausente1(object sender, RoutedEventArgs e)
         {
             cont1++;
 
             if (cont1 == 1)
             {
-                AusenciaNota1.Text = "85"; 
-            }
+                AusenciaNota2.Text = "90";
 
+            }
 
             if (cont1 == 2)
             {
-                AusenciaNota1.Text = "70";
-                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(2) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "80";
+
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota1.Text = "55";
-                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (2), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "70";
+                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
+            }
+
+            if (cont1 == 4)
+            {
+                AusenciaNota2.Text = "60";
+                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
             }
 
         }
@@ -87,23 +93,28 @@ namespace ProyectoGrupalGrupo2
 
             if (cont2 == 1)
             {
-                AusenciaNota2.Text = "85";
+                AusenciaNota2.Text = "90";
 
             }
 
-
             if (cont2 == 2)
             {
-                AusenciaNota2.Text = "70";
-                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(2) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "80";
                 
             }
 
             if (cont2 == 3)
             {
-                AusenciaNota2.Text = "55";
-                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (2), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                
+                AusenciaNota2.Text = "70";
+                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
+            }
+
+            if (cont2 == 4)
+            {
+                AusenciaNota2.Text = "60";
+                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
             }
 
         }
@@ -114,20 +125,28 @@ namespace ProyectoGrupalGrupo2
 
             if (cont1 == 1)
             {
-                AusenciaNota1.Text = "85";
-            }
+                AusenciaNota2.Text = "90";
 
+            }
 
             if (cont1 == 2)
             {
-                AusenciaNota1.Text = "70";
-                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(2) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "80";
+
             }
 
             if (cont1 == 3)
             {
-                AusenciaNota1.Text = "55";
-                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (2), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "70";
+                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
+            }
+
+            if (cont1 == 4)
+            {
+                AusenciaNota2.Text = "60";
+                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
             }
         }
 
@@ -137,21 +156,27 @@ namespace ProyectoGrupalGrupo2
 
             if (cont2 == 1)
             {
-                AusenciaNota2.Text = "85";
-            }
+                AusenciaNota2.Text = "90";
 
+            }
 
             if (cont2 == 2)
             {
-                AusenciaNota2.Text = "70";
-                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(2) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "80";
 
             }
 
             if (cont2 == 3)
             {
-                AusenciaNota2.Text = "55";
-                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (2), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                AusenciaNota2.Text = "70";
+                res = MessageBox.Show("¡Advertencia! Este estudiante ha completado el limite de faltas(3) de faltar una vez más reprobará el curso", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
+            }
+
+            if (cont2 == 4)
+            {
+                AusenciaNota2.Text = "60";
+                res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
             }
         }

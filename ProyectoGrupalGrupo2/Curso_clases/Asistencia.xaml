@@ -10,32 +10,42 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="#FF3A1A46" Offset="1"/>
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF391C4E" Offset="0.4"/>
+                <GradientStop Color="#FFBCA9CA" Offset="1"/>
+                <GradientStop Color="#FE5F4572" Offset="0.683"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content=" Diseño de aplicaciones web 1C2023-164008G2" HorizontalAlignment="Left" Margin="33,62,0,0" VerticalAlignment="Top" Height="48" Width="784" Foreground="White" FontSize="36" FontFamily="Tw Cen MT"/>
-        <Label Content="Asistencia" HorizontalAlignment="Left" Margin="45,20,0,0" VerticalAlignment="Top" Width="168" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Height="42"/>
+        <Rectangle HorizontalAlignment="Center" Height="577" Margin="0,100,0,0" VerticalAlignment="Top" Width="1110" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Opacity="0.3" d:IsLocked="True">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Label Content="Asistencia" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2" d:IsLocked="True"/>
+        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
         <Label Content="Alejandro Durán Altamirano" HorizontalAlignment="Left" Margin="117,164,0,0" VerticalAlignment="Top" Height="42" Width="308" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="117,246,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="45,158,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="45,240,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Rectangle HorizontalAlignment="Left" Height="37" Margin="626,251,0,0" VerticalAlignment="Top" Width="134" Fill="#FF74BAD8" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="36" Margin="786,168,0,0" VerticalAlignment="Top" Width="134" Fill="#FF7F2020" RadiusX="20" RadiusY="20"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1059,24,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png"/>
         <TextBox x:Name="AusenciaNota1" TextWrapping="Wrap" Width="120" Margin="951,173,119,496" FontSize="24" TextChanged="Nota1_TextChanged" Text="100"/>
         <TextBox x:Name="AusenciaNota2" TextWrapping="Wrap" Width="120" Margin="951,246,119,421" FontSize="24" TextChanged="Nota2_TextChanged" Text="100"/>
-        <Button x:Name="AusenciaNota_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,167,281,506" Click="Button_Click" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.54"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="37" Margin="468,252,0,0" VerticalAlignment="Top" Width="134" Fill="#FF80BB53" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="468,169,0,0" VerticalAlignment="Top" Width="134" Fill="#FF80BB53" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="37" Margin="626,167,0,0" VerticalAlignment="Top" Width="134" Fill="#FF74BAD8" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="37" Margin="786,249,0,0" VerticalAlignment="Top" Width="134" Fill="#FF7F2020" RadiusX="20" RadiusY="20"/>
+        <Button x:Name="AusenciaNota_2" Content="Ausente" Margin="798,251,282,424" Background="#FF7F2020" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="Ausencia2_Click" Foreground="White"/>
         <Button x:Name="Justificado2" Content="Justificado" Margin="641,253,440,421" RenderTransformOrigin="0.5,0.5" Background="#FF74BAD8" FontSize="16" FontWeight="Bold" Click="Justificado2_Click" BorderBrush="{x:Null}" Foreground="White">
             <Button.RenderTransform>
                 <TransformGroup>
@@ -46,13 +56,10 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="37" Margin="468,252,0,0" VerticalAlignment="Top" Width="134" Fill="#FF80BB53" RadiusX="20" RadiusY="20"/>
-        <Button x:Name="Presente2" Content="Presente" Margin="483,254,604,421" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="468,169,0,0" VerticalAlignment="Top" Width="134" Fill="#FF80BB53" RadiusX="20" RadiusY="20"/>
-        <Rectangle HorizontalAlignment="Left" Height="37" Margin="626,167,0,0" VerticalAlignment="Top" Width="134" Fill="#FF74BAD8" RadiusX="20" RadiusY="20"/>
-        <Rectangle HorizontalAlignment="Left" Height="37" Margin="786,249,0,0" VerticalAlignment="Top" Width="134" Fill="#FF7F2020" RadiusX="20" RadiusY="20"/>
-        <Button x:Name="AusenciaNota_2" Content="Ausente" Margin="798,251,282,424" Background="#FF7F2020" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="AusenciaNota_2_Click" Foreground="White"/>
         <Button x:Name="Justificado1" Content="Justificado" Margin="638,169,442,504" Background="#FF74BAD8" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="Justificado1_Click" Foreground="White"/>
+        <Button x:Name="Presente2" Content="Presente" Margin="483,254,604,421" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="AusenciaNota_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,167,281,506" Click="Button_Ausente1" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White"></Button>
         <Button x:Name="Presente1" Content="Presente" Margin="483,169,604,504" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
     </Grid>
 </Window>
