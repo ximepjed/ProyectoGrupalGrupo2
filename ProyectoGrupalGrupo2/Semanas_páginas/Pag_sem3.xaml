@@ -5,10 +5,108 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProyectoGrupalGrupo2.Semanas_páginas"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Pag_sem3">
+      Width="710" Height="275"
+      Title="Pag_sem3" Background="Black">
 
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="#FF2B1235" Offset="0.752"/>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FFA087AB" Offset="0.265"/>
+                <GradientStop Color="#FFFDFDFD" Offset="0"/>
+                <GradientStop Color="#FF815794" Offset="0.452"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Semana 3-Material" HorizontalAlignment="Left" Height="34" Margin="57,14,0,0" VerticalAlignment="Top" Width="321" FontFamily="Tw Cen MT" FontSize="24" Foreground="White" FontWeight="Medium"/>
+        <Image HorizontalAlignment="Left" Height="42" Margin="10,10,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/Logo1.png"/>
+        <Rectangle HorizontalAlignment="Center" Height="209" VerticalAlignment="Top" Width="679" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Opacity="0.2" Margin="0,56,0,0">
+            <Rectangle.Effect>
+                <BlurEffect/>
+            </Rectangle.Effect>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Laboratorio1" HorizontalAlignment="Left" Margin="68,94,0,0" VerticalAlignment="Top" Width="110" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="24" IsEnabled="False"/>
+        <Button Content="Lab1G2.pdf" HorizontalAlignment="Left" Margin="198,94,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="20" Width="64"/>
+        <Label Content="PPT.Diseño" HorizontalAlignment="Left" Margin="68,126,0,0" VerticalAlignment="Top" Width="110" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="28" IsEnabled="False"/>
+        <Button Content="Diseño.ppt" HorizontalAlignment="Left" Margin="198,130,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="11" Background="White" Foreground="Black" Height="18" Width="64"/>
+        <Label Content="Laboratorio que estaremos realizando en semana 1, a base de WPF." HorizontalAlignment="Left" Margin="280,94,0,0" VerticalAlignment="Top" Width="376" Foreground="White" FontSize="11" FontFamily="Tw Cen MT" Height="22" Background="{x:Null}"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="30,96,0,0" VerticalAlignment="Top" Width="36" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="30,130,0,0" VerticalAlignment="Top" Width="36" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
+        <Label Content="Presentación PowerPoint utilizada en la clase de la semana3, sobre diseño." HorizontalAlignment="Left" Margin="280,128,0,0" VerticalAlignment="Top" Width="376" Foreground="White" FontSize="11" FontFamily="Tw Cen MT" Height="22"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="242,119,0,0" Stroke="White" VerticalAlignment="Top" Width="62" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="0" Margin="150,120,0,0" Stroke="White" VerticalAlignment="Top" Width="62" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="68,124,0,0" Stroke="White" VerticalAlignment="Top" Width="602" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="235,112,0,0" Stroke="White" VerticalAlignment="Top" Width="76" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="146,111,0,0" Stroke="White" VerticalAlignment="Top" Width="76" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="68,88,0,0" Stroke="White" VerticalAlignment="Top" Width="602" Fill="White" RenderTransformOrigin="0.5,1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Título" HorizontalAlignment="Left" Margin="98,59,0,0" VerticalAlignment="Top" Width="50" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="24" IsEnabled="False" FontWeight="Bold"/>
+        <Label Content="Archivo" HorizontalAlignment="Left" Margin="198,59,0,0" VerticalAlignment="Top" Width="64" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="24" IsEnabled="False" FontWeight="Bold"/>
+        <Label Content="Descripción" HorizontalAlignment="Left" Margin="280,59,0,0" VerticalAlignment="Top" Width="188" Foreground="White" FontSize="16" FontFamily="Tw Cen MT" Height="30" IsEnabled="False" FontWeight="Bold"/>
+
     </Grid>
 </Page>

@@ -85,7 +85,7 @@ namespace ProyectoGrupalGrupo2
 
             if (cont1 == 4)
             {
-                Nota_asistencia2.Text = "60";
+                Nota_asistencia1.Text = "60";
                 { Estado_de_asistencia1.Fill = bc.ConvertFrom("#FF7F2020") as Brush; }
                 res = MessageBox.Show("¡Lo sentimos! Este estudiante sobrepasó el limite de faltas (3), ha reprobado el curso automáticamente", "Limite de faltas", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 

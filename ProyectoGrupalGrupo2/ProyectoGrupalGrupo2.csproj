@@ -16,6 +16,8 @@
     <None Remove="login2.jpg" />
     <None Remove="notes.png" />
     <None Remove="progra1.jpg" />
+    <None Remove="Semanas_páginas\candado-abierto.png" />
+    <None Remove="Semanas_páginas\candado.png" />
     <None Remove="ulacit.jpg" />
     <None Remove="user.png" />
     <None Remove="white.png" />
@@ -31,6 +33,8 @@
     <Resource Include="Imágenes_proyecto\ulacit.jpg" />
     <Resource Include="Imágenes_proyecto\user.png" />
     <Resource Include="Imágenes_proyecto\white.png" />
+    <Resource Include="Imágenes_proyecto\candado.png" />
+    <Resource Include="Imágenes_proyecto\candado-abierto.png" />
   </ItemGroup>
 
 </Project>
