@@ -24,8 +24,10 @@ namespace ProyectoGrupalGrupo2
             InitializeComponent();
         }
 
-        private void Ingreso_inicio(object sender, RoutedEventArgs e)
+        private void Button_inicio(object sender, RoutedEventArgs e)
         {
+            Button_login.IsEnabled = false;
+
             //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
             if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
             {
@@ -60,10 +62,20 @@ namespace ProyectoGrupalGrupo2
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             //textbox de correo
+            //si no esta ingresado el usuario no habilita el boton
+            if (txtUsuario.Text != "" && passwordLogin.Password != "")
+            {
+                Button_login.IsEnabled = true;
+            }
         }
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
             //text box de contraseña
+            //si no ingresa la contraseña tampoco se va a hablitar el boton de ingresar
+            if (txtUsuario.Text != "" && passwordLogin.Password != "")
+            {
+                Button_login.IsEnabled = true;
+            }
         }
     }
 }

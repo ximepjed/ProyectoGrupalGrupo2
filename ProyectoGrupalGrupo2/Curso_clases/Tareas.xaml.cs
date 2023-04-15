@@ -19,9 +19,6 @@ namespace ProyectoGrupalGrupo2
     /// </summary>
     public partial class Tareas : Window
     {
-        //Variable
-        String Mensaje;
-        String Hora;
 
         public Tareas()
         {
