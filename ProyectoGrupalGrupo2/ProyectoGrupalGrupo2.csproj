@@ -35,6 +35,8 @@
     <Resource Include="Imágenes_proyecto\white.png" />
     <Resource Include="Imágenes_proyecto\candado.png" />
     <Resource Include="Imágenes_proyecto\candado-abierto.png" />
+    <Resource Include="Imágenes_proyecto\monitor.png" />
+    <Resource Include="Imágenes_proyecto\profesor.png" />
   </ItemGroup>
 
 </Project>

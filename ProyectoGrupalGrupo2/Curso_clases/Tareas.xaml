@@ -80,7 +80,7 @@
         <Label Content="Tareas del Curso" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2" d:IsLocked="True"/>
         <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1060,10,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png" d:IsLocked="True"/>
-        <Rectangle HorizontalAlignment="Left" Height="577" Margin="40,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20" d:IsLocked="True"/>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="40,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
         <Label Content="Laboratorio 01" HorizontalAlignment="Left" Margin="146,136,0,0" VerticalAlignment="Top" Width="158" Foreground="White" FontSize="22" FontFamily="Tw Cen MT" Height="46" IsEnabled="False"/>
         <Button Content="Lab1.pdf" HorizontalAlignment="Left" Margin="332,136,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="20" Background="White" Foreground="Black" Height="24" Width="91" Click="Button_Click"/>
         <Label Content="Valor: 2.5%" HorizontalAlignment="Left" Margin="451,133,0,0" VerticalAlignment="Top" Width="113" Foreground="White" FontSize="20" FontFamily="Tw Cen MT" Height="39"/>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoGrupalGrupo2.Windows_extras;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,8 +42,10 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_InfoPer(object sender, RoutedEventArgs e)
         {
-            //popup box en donde dice info personal
-            MessageBox.Show("Cristhian García Contreras, cgarciac534@ulacit.ed.cr");
+            //boton para la informacion del profesor
+            Información_del_profesor profesor = new Información_del_profesor();
+            profesor.Owner = this;
+            profesor.Show();
         }
 
  

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoGrupalGrupo2.Windows_extras;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,39 +28,44 @@ namespace ProyectoGrupalGrupo2
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //hacer
+            //hacer¿?
         }
 
         private void Button_Nota(object sender, RoutedEventArgs e)
         {
+            //boton para ingresar a la colocacion de notas
             Notas notas = new Notas();
-            notas.Owner=this;
+            notas.Owner = this;
             notas.Show();
         }
 
         private void Button_Asistencia(object sender, RoutedEventArgs e)
         {
+            //boton para ingresar a la toma de asistencia
             Asistencia asistencia = new Asistencia();
-            asistencia.Owner= this;
+            asistencia.Owner = this;
             asistencia.Show();
         }
 
         private void Button_Click_About(object sender, RoutedEventArgs e)
         {
-            //pop up box
-            MessageBox.Show("En este curso, los estudiantes obtendrán las destrezas para programar algoritmos mantenibles, en el sentido de que son" +
-                "robustos, flexibles y reutilizables. Se aplica técnicas y patrones para lograr un código fuente fácil de entender, de probar y de cambiar.");
+            //boton de informacion del curso y su pantalla
+            Información_de_curso información_curso = new Información_de_curso();
+            información_curso.Owner = this;
+            información_curso.Show();
         }
 
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
+            //box para mostrar los botones de las semanas
         }
 
         private void Button_Tarea(object sender, RoutedEventArgs e)
         {
+            //boton para ingresar a la ventana de tareas
             Tareas tareas = new Tareas();
-            tareas.Owner=this;
+            tareas.Owner = this;
             tareas.Show();
         }
 
@@ -74,6 +80,7 @@ namespace ProyectoGrupalGrupo2
             System.Windows.Application.Current.Shutdown();
         }
 
+        //las 15 semanas correspondientes y su navegacion entre páginas...
         private void Button_sem1(object sender, RoutedEventArgs e)
         {
             Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem1());

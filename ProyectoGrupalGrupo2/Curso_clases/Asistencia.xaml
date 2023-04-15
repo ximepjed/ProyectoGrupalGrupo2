@@ -29,6 +29,7 @@
                 <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="577" Margin="40,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20"/>
 
         <Label Content="Asistencia" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2" d:IsLocked="True"/>
         <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>

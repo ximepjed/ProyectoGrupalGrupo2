@@ -36,7 +36,7 @@
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="104,112,0,0" Stroke="White" VerticalAlignment="Top" Width="179" Fill="White" RenderTransformOrigin="0.5,1"></Rectangle>
         <Label Content="¡Bienvenido!" HorizontalAlignment="Left" Height="44" Margin="142,182,0,0" VerticalAlignment="Top" Width="128" FontSize="20" Foreground="White" FontWeight="Medium"/>
         <Label Content="Cursos" HorizontalAlignment="Left" Height="34" Margin="142,327,0,0" VerticalAlignment="Top" Width="76" FontSize="20" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.184,0.563" Grid.RowSpan="2"/>
-       
+
         <Rectangle HorizontalAlignment="Left" Height="54" ButtonBase.Click="Button_SignOut" Margin="62,612,0,0" VerticalAlignment="Top" Width="208" Fill="#FF2B1235" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28"/>
         <Button Content="Sign Out" HorizontalAlignment="Left" Height="54" Margin="71,612,0,0" VerticalAlignment="Top" Width="218" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Click="Button_SignOut"/>
         <Rectangle HorizontalAlignment="Left" Height="43" Margin="26,387,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
@@ -55,7 +55,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Label Content="Cursos Actuales" HorizontalAlignment="Left" Height="56" Margin="584,44,0,0" VerticalAlignment="Top" Width="316" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium"/>
+        <Label Content="Cursos Actuales" HorizontalAlignment="Left" Height="68" Margin="547,24,0,0" VerticalAlignment="Top" Width="390" FontFamily="Tw Cen MT" FontSize="60" Foreground="White" FontWeight="Medium"/>
         <Rectangle HorizontalAlignment="Left" Height="134" Margin="390,172,0,0" VerticalAlignment="Top" Width="278" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
