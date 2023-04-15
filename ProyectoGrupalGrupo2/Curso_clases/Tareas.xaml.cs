@@ -26,8 +26,6 @@ namespace ProyectoGrupalGrupo2
         public Tareas()
         {
             InitializeComponent();
-            Mensaje = "Se ha subido el archivo.";
-            Hora = DateTime.Now.ToString("h:mm:ss tt");
         }
 
         private void Button_Salir(object sender, RoutedEventArgs e)
@@ -45,16 +43,6 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_eliminar_tarea(object sender, RoutedEventArgs e)
         {
-        }
-
-        public class Registro_tareas
-        {
-            public string nombre_tareas { get; set; }
-            public string descripción_tareas { get; set; }
-            public string categoría_tareas { get; set; }
-            public int fecha_de_entrega_tarea { get; set; }
-
-
         }
     }
 }

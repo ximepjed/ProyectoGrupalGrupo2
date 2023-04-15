@@ -27,6 +27,8 @@ namespace ProyectoGrupalGrupo2
 
         private void Ingresar_login(object sender, RoutedEventArgs e)
         {
+            //ocultamos la ventana pasada
+            this.Hide();
             //Botón para ingresar al login
             Login login = new Login();
             login.Owner= this;

@@ -179,8 +179,8 @@
         <TextBox x:Name="nombre_tarea" HorizontalAlignment="Left" Height="35" Margin="918,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
         <DatePicker x:Name="fecha_entrega_tarea" HorizontalAlignment="Left" Margin="918,344,0,0" VerticalAlignment="Top" Width="186" Height="32" Background="White" BorderBrush="{x:Null}" Foreground="Black"/>
         <TextBox x:Name="descripción_tarea" HorizontalAlignment="Left" Height="34" Margin="918,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
-        <RadioButton x:Name="Categoría_foro" Content="Foro" HorizontalAlignment="Left" Height="14" Margin="946,255,0,0" VerticalAlignment="Top" Width="52" Foreground="White"/>
-        <RadioButton x:Name="Categoría_tarea" Content="Tarea" HorizontalAlignment="Left" Height="14" Margin="1011,255,0,0" VerticalAlignment="Top" Width="71" Foreground="White"/>
+        <ComboBox HorizontalAlignment="Left" Height="42" Margin="918,241,0,0" VerticalAlignment="Top" Width="185"/>
+        <ComboBox HorizontalAlignment="Left" Height="522" Margin="69,129,0,0" VerticalAlignment="Top" Width="654"/>
 
     </Grid>
 </Window>
