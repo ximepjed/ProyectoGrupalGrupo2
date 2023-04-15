@@ -27,8 +27,6 @@ namespace ProyectoGrupalGrupo2
 
         private void Clase_cuadro(object sender, RoutedEventArgs e)
         {
-            //ocultamos la ventana pasada
-            this.Hide();
             //boton grande, el cuadro con imagen
             Curso_individual curso_individual = new Curso_individual();
             curso_individual.Owner = this;
@@ -36,8 +34,6 @@ namespace ProyectoGrupalGrupo2
         }
         private void Clase_boton(object sender, RoutedEventArgs e)
         {
-            //ocultamos la ventana pasada
-            this.Hide();
             //boton individual del lado izquierdo
             Curso_individual curso_individual = new Curso_individual();
             curso_individual.Owner = this;
@@ -46,8 +42,6 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_InfoPer(object sender, RoutedEventArgs e)
         {
-            //ocultamos la ventana pasada
-            this.Hide();
             //boton para la informacion del profesor
             Información_del_profesor profesor = new Información_del_profesor();
             profesor.Owner = this;

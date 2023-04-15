@@ -29,8 +29,6 @@ namespace ProyectoGrupalGrupo2
             //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
             if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
             {
-                //ocultamos la ventana pasada
-                this.Hide();
                 //ventana inicio
                 Inicio inicio = new Inicio();
                 inicio.Show();
