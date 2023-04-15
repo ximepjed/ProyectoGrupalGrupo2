@@ -27,31 +27,34 @@ namespace ProyectoGrupalGrupo2
         {
             InitializeComponent();
             Mensaje = "Se ha subido el archivo.";
-            Hora= DateTime.Now.ToString("h:mm:ss tt");
+            Hora = DateTime.Now.ToString("h:mm:ss tt");
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e) //Boton Lab1.pdf
-        {
-           
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e) //Boton Lab2.pdf
-        {
-            
-        }
         private void Button_Salir(object sender, RoutedEventArgs e)
         {//Salida del sistema
             System.Windows.Application.Current.Shutdown();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e) //Boton para simular que se subió la tarea
+        private void Button_agregar_tarea(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{this.Mensaje} \nHora de subida: {Hora}");
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e) //Boton para simular que se subió la tarea
+        private void Button_editar_tarea(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{this.Mensaje} \nHora de subida: {Hora}");
+        }
+
+        private void Button_eliminar_tarea(object sender, RoutedEventArgs e)
+        {
+        }
+
+        public class Registro_tareas
+        {
+            public string nombre_tareas { get; set; }
+            public string descripción_tareas { get; set; }
+            public string categoría_tareas { get; set; }
+            public int fecha_de_entrega_tarea { get; set; }
+
+
         }
     }
 }
