@@ -22,16 +22,23 @@ namespace ProyectoGrupalGrupo2
         public Login()
         {
             InitializeComponent();
+
+            //habilitar el boton de ingresar solo si estan ambas credenciales (correctas o incorrectas)
+            if (txtUsuario.Text != "" && passwordLogin.Password != "")
+            {
+                Button_login.IsEnabled = true;
+            }
+            else
+            {
+                Button_login.IsEnabled = false;
+            }
+
         }
 
-        private void Login_load(object sender, RoutedEventArgs e)
-        {
-            Button_login.IsEnabled = false;
-        }
+        //Button_login.IsEnabled = false;
 
         private void Button_inicio(object sender, RoutedEventArgs e)
         {
-
             //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
             if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
             {
@@ -65,20 +72,26 @@ namespace ProyectoGrupalGrupo2
         //validacion de textbox
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //textbox de correo
-            //si no esta ingresado el usuario no habilita el boton
+            //texto de usuario
+            if (txtUsuario.Text != "" && passwordLogin.Password != "" )
+            {
+                Button_login.IsEnabled = true;
+            }
+            else
+            {
+                Button_login.IsEnabled = false;
+            }
+        }
+        private void Password_passwordChanged(object sender, RoutedEventArgs e)
+        {
+            //texto de usuario
             if (txtUsuario.Text != "" && passwordLogin.Password != "")
             {
                 Button_login.IsEnabled = true;
             }
-        }
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-        {
-            //text box de contraseña
-            //si no ingresa la contraseña tampoco se va a hablitar el boton de ingresar
-            if (txtUsuario.Text != "" && passwordLogin.Password != "")
+            else
             {
-                Button_login.IsEnabled = true;
+                Button_login.IsEnabled = false;
             }
         }
     }
