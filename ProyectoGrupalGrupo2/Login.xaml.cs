@@ -27,12 +27,12 @@ namespace ProyectoGrupalGrupo2
         private void Ingreso_inicio(object sender, RoutedEventArgs e)
         {
             //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
-            if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && txtContra.Text == "cgarciac")
+            if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
             {
                 Inicio inicio = new Inicio();
                 inicio.Show();
             }
-            if (txtUsuario.Text == "0" && txtContra.Text == "0")
+            if (txtUsuario.Text == "0" && passwordLogin.Password == "0")
             {
                 Inicio inicio = new Inicio();
                 inicio.Show();
