@@ -141,9 +141,9 @@
         <StackPanel HorizontalAlignment="Left" Margin="399,387,0,0" VerticalAlignment="Top" Width="710" Height="275" Background="#FF110616">
             <Frame x:Name="Semanas_Frame" Content="Frame" Width="710" Height="275"/>
         </StackPanel>
-
-
-
+  
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="59,486,0,0" VerticalAlignment="Top" Width="208" Fill="#FFF9E9FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20" Grid.IsSharedSizeScope="True"/>
+        <Button Content="Cursos" HorizontalAlignment="Left" Height="38" Margin="59,486,0,0" VerticalAlignment="Top" Width="208" Background="{x:Null}" Foreground="#FF0A020E" BorderBrush="{x:Null}" FontSize="14" Click="Button_Click_Cursos" Grid.IsSharedSizeScope="True" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

@@ -41,5 +41,32 @@ namespace ProyectoGrupalGrupo2
         private void Button_eliminar_tarea(object sender, RoutedEventArgs e)
         {
         }
+
+        private void nombre_tarea_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void descripción_tarea_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Menu(object sender, RoutedEventArgs e)
+        {
+            Curso_individual curso_individual = new Curso_individual();
+            this.Close();
+            curso_individual.Show();
+        }
     }
 }

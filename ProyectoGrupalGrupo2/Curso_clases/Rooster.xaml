@@ -71,6 +71,7 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
+            <Button Content="Menú" HorizontalAlignment="Left" Margin="21,652,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Menu" Grid.Column="1" Grid.ColumnSpan="2"/>
 
 
 

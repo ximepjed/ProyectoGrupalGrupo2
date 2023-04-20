@@ -44,11 +44,13 @@ namespace ProyectoGrupalGrupo2
             {
                 //ventana inicio
                 Inicio inicio = new Inicio();
+                this.Close();
                 inicio.Show();
             }
             if (txtUsuario.Text == "0" && passwordLogin.Password == "0")
             {
                 Inicio inicio = new Inicio();
+                this.Close();
                 inicio.Show();
             }
             else

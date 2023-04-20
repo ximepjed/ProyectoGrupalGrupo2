@@ -29,7 +29,7 @@ namespace ProyectoGrupalGrupo2
         {
             //Botón para ingresar al login
             Login login = new Login();
-            login.Owner= this;
+            this.Close();
             login.Show();
         }
         private void Button_infoWhite(object sender, RoutedEventArgs e)

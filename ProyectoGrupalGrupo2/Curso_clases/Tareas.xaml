@@ -164,7 +164,7 @@
         <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1060,10,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png" d:IsLocked="True"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="989,17,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="1102,671,0,0" VerticalAlignment="Top" Height="27" Width="78" Click="Button_Salir"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="1102,671,0,10" Width="78" Click="Button_Salir"/>
         <Rectangle HorizontalAlignment="Left" Height="42" Margin="886,404,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="42" Margin="1025,404,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="42" Margin="753,404,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
@@ -176,11 +176,12 @@
         <Label Content="Fecha de entrega:" HorizontalAlignment="Left" Margin="728,339,0,0" VerticalAlignment="Top" Height="42" Width="190" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
         <Label Content="Categoría:" HorizontalAlignment="Left" Margin="800,241,0,0" VerticalAlignment="Top" Height="42" Width="114" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
         <Label Content="Datos de la tarea" HorizontalAlignment="Left" Height="58" Margin="794,129,0,0" VerticalAlignment="Top" Width="304" FontFamily="Tw Cen MT" FontSize="40" Foreground="White" FontWeight="Medium"/>
-        <TextBox x:Name="nombre_tarea" HorizontalAlignment="Left" Height="35" Margin="918,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <TextBox x:Name="nombre_tarea" HorizontalAlignment="Left" Height="35" Margin="918,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="nombre_tarea_TextChanged"/>
         <DatePicker x:Name="fecha_entrega_tarea" HorizontalAlignment="Left" Margin="918,344,0,0" VerticalAlignment="Top" Width="186" Height="32" Background="White" BorderBrush="{x:Null}" Foreground="Black"/>
-        <TextBox x:Name="descripción_tarea" HorizontalAlignment="Left" Height="34" Margin="918,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
-        <ComboBox HorizontalAlignment="Left" Height="42" Margin="918,241,0,0" VerticalAlignment="Top" Width="185"/>
-        <ComboBox HorizontalAlignment="Left" Height="522" Margin="69,129,0,0" VerticalAlignment="Top" Width="654"/>
+        <TextBox x:Name="descripción_tarea" HorizontalAlignment="Left" Height="34" Margin="918,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="descripción_tarea_TextChanged"/>
+        <ComboBox HorizontalAlignment="Left" Height="42" Margin="918,241,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="ComboBox_SelectionChanged_1"/>
+        <ComboBox HorizontalAlignment="Left" Height="522" Margin="69,129,0,0" VerticalAlignment="Top" Width="654" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Button Content="Menú" HorizontalAlignment="Left" Margin="40,671,0,10" Width="78" Click="Button_Menu"/>
 
     </Grid>
 </Window>

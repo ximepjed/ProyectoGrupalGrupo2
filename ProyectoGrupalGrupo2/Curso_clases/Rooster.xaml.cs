@@ -23,5 +23,18 @@ namespace ProyectoGrupalGrupo2.Curso_clases
         {
             InitializeComponent();
         }
+
+        private void Button_Salir(object sender, RoutedEventArgs e)
+        {//salida del sistema
+            System.Windows.Application.Current.Shutdown();
+
+        }
+
+        private void Button_Menu(object sender, RoutedEventArgs e)
+        {
+            Curso_individual curso_individual = new Curso_individual();
+            this.Close();
+            curso_individual.Show();
+        }
     }
 }

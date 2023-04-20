@@ -1,4 +1,5 @@
-﻿using ProyectoGrupalGrupo2.Windows_extras;
+﻿using ProyectoGrupalGrupo2.Curso_clases;
+using ProyectoGrupalGrupo2.Windows_extras;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +36,7 @@ namespace ProyectoGrupalGrupo2
         {
             //boton para ingresar a la colocacion de notas
             Notas notas = new Notas();
-            notas.Owner = this;
+            this.Close();
             notas.Show();
         }
 
@@ -43,7 +44,7 @@ namespace ProyectoGrupalGrupo2
         {
             //boton para ingresar a la toma de asistencia
             Asistencia asistencia = new Asistencia();
-            asistencia.Owner = this;
+            this.Close();
             asistencia.Show();
         }
 
@@ -65,13 +66,16 @@ namespace ProyectoGrupalGrupo2
         {
             //boton para ingresar a la ventana de tareas
             Tareas tareas = new Tareas();
-            tareas.Owner = this;
+            this.Close();
             tareas.Show();
         }
 
         private void Button_Rooster(object sender, RoutedEventArgs e)
-        {
-            //hacer ventana con herencia
+        {//entrada a rooster
+            Rooster rooster = new Rooster();
+            this.Close();   
+            rooster.Show();
+            
         }
 
  
@@ -140,6 +144,13 @@ namespace ProyectoGrupalGrupo2
         private void Button_sem15(object sender, RoutedEventArgs e)
         {
             Semanas_Frame.NavigationService.Navigate(new Semanas_páginas.Pag_sem15());
+        }
+
+        private void Button_Click_Cursos(object sender, RoutedEventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            this.Close();
+            inicio.Show();
         }
     }
 }

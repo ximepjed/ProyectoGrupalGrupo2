@@ -29,14 +29,14 @@ namespace ProyectoGrupalGrupo2
         {
             //boton grande, el cuadro con imagen
             Curso_individual curso_individual = new Curso_individual();
-            curso_individual.Owner = this;
+            this.Close();
             curso_individual.Show();
         }
         private void Clase_boton(object sender, RoutedEventArgs e)
         {
             //boton individual del lado izquierdo
             Curso_individual curso_individual = new Curso_individual();
-            curso_individual.Owner = this;
+            this.Close();
             curso_individual.Show();
         }
 
