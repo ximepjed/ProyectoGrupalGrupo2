@@ -165,10 +165,10 @@
         <Image HorizontalAlignment="Left" Height="76" Margin="1060,10,0,0" VerticalAlignment="Top" Width="79" Source="/Imágenes_proyecto/Logo1.png" d:IsLocked="True"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="989,17,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1102,671,0,10" Width="78" Click="Button_Salir"/>
-        <Rectangle HorizontalAlignment="Left" Height="42" Margin="940,582,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="42" Margin="950,583,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Rectangle HorizontalAlignment="Left" Height="42" Margin="950,409,0,0" VerticalAlignment="Top" Width="122" Fill="#FFF8E6FF" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Button x:Name="agregar_tarea" Content="Agregar" HorizontalAlignment="Left" Margin="956,413,0,0" VerticalAlignment="Top" Height="34" Width="110" Click="Button_agregar_tarea" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" FontFamily="Segoe UI Variable Display" FontSize="15"/>
-        <Button x:Name="eliminar_tarea" Content="Eliminar" HorizontalAlignment="Left" Margin="946,586,0,0" VerticalAlignment="Top" Height="34" Width="110" Click="Button_eliminar_tarea" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" FontFamily="Segoe UI Variable Display" FontSize="15"/>
+        <Button x:Name="eliminar_tarea" Content="Eliminar" HorizontalAlignment="Left" Margin="956,587,0,0" VerticalAlignment="Top" Height="34" Width="110" Click="Button_eliminar_tarea" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" FontFamily="Segoe UI Variable Display" FontSize="15"/>
         <Label Content="Nombre:" HorizontalAlignment="Left" Margin="820,192,0,0" VerticalAlignment="Top" Height="42" Width="94" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
         <Label Content="Descripción:" HorizontalAlignment="Left" Margin="786,291,0,0" VerticalAlignment="Top" Height="42" Width="128" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
         <Label Content="Fecha de entrega:" HorizontalAlignment="Left" Margin="728,339,0,0" VerticalAlignment="Top" Height="42" Width="190" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
@@ -179,7 +179,7 @@
         <TextBox x:Name="txt_descripcion_tarea" HorizontalAlignment="Left" Height="34" Margin="918,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="descripción_tarea_TextChanged"/>
         <ComboBox x:Name="cbox_Categoria" HorizontalAlignment="Left" Height="42" Margin="918,241,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="ComboBox_SelectionChanged_1"/>
         <Button Content="Menú" HorizontalAlignment="Left" Margin="40,671,0,10" Width="78" Click="Button_Menu"/>
-        <ListBox x:Name="lb_Tareas" Margin="79,141,516,178">
+        <ListBox x:Name="lb_Tareas" Margin="79,141,516,67">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="4">
@@ -197,8 +197,8 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <Label x:Name="lb_Posicion" Content="Posición:" HorizontalAlignment="Left" Margin="837,515,0,0" VerticalAlignment="Top" Height="42" Width="128" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
-        <TextBox x:Name="txt_eliminar" HorizontalAlignment="Left" Height="34" Margin="940,519,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="descripción_tarea_TextChanged"/>
+        <Label x:Name="lb_Posicion" Content="Posición:" HorizontalAlignment="Left" Margin="815,510,0,0" VerticalAlignment="Top" Height="42" Width="128" Foreground="White" FontSize="24" FontFamily="Tw Cen MT" Background="Transparent"/>
+        <TextBox x:Name="txt_eliminar" HorizontalAlignment="Left" Height="34" Margin="918,514,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="descripción_tarea_TextChanged"/>
 
 
     </Grid>
