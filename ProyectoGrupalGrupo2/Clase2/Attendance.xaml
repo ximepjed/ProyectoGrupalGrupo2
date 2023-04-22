@@ -1,11 +1,11 @@
-﻿<Window x:Class="ProyectoGrupalGrupo2.Asistencia"
+﻿<Window x:Class="ProyectoGrupalGrupo2.Clase2.Attendance"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ProyectoGrupalGrupo2"
+        xmlns:local="clr-namespace:ProyectoGrupalGrupo2.Clase2"
         mc:Ignorable="d"
-        Title="Asistencia" Height="724" Width="1190" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Attendance" Height="724" Width="1190" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Grid.Background>
@@ -32,9 +32,9 @@
         <Rectangle HorizontalAlignment="Left" Height="577" Margin="40,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="1114" Fill="#FF190D23" Opacity="0.7" RadiusX="20" RadiusY="20" d:IsLocked="True"/>
 
         <Label Content="Asistencia" HorizontalAlignment="Left" Height="58" Margin="45,10,0,0" VerticalAlignment="Top" Width="424" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" Grid.RowSpan="2" d:IsLocked="True"/>
-        <Label Content="Diseño de Aplicaciones de Software-1C2023-164008G2" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
-        <Label Content="Alejandro Durán Altamirano" HorizontalAlignment="Left" Margin="137,166,0,0" VerticalAlignment="Top" Height="42" Width="308" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
-        <Label Content="Ximena Pérez Jackson" HorizontalAlignment="Left" Margin="137,263,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+        <Label Content="Base de Datos-1C2023-167001" HorizontalAlignment="Left" Height="32" Margin="45,62,0,0" VerticalAlignment="Top" Width="519" FontFamily="Tw Cen MT" FontSize="22" Foreground="White" FontWeight="Medium" d:IsLocked="True"/>
+        <Label Content="Caroline Chaves Chivi" HorizontalAlignment="Left" Margin="137,166,0,0" VerticalAlignment="Top" Height="42" Width="308" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
+        <Label Content="Fiorella Monge Camacho" HorizontalAlignment="Left" Margin="137,263,0,0" VerticalAlignment="Top" Height="43" Width="277" Foreground="White" FontSize="24" FontFamily="Tw Cen MT"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="62,160,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Image HorizontalAlignment="Left" Height="54" Margin="62,257,0,0" VerticalAlignment="Top" Width="66" Source="/Imágenes_proyecto/user.png"/>
         <Rectangle HorizontalAlignment="Left" Height="41" Margin="626,268,0,0" VerticalAlignment="Top" Width="134" Fill="#FF74BAD8" RadiusX="20" RadiusY="20"/>
@@ -52,9 +52,9 @@
         <Button x:Name="Ausencia_2" Content="Ausente" Margin="799,269,281,404" Background="#FF7F2020" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="Ausencia2_Click" Foreground="White"/>
         <Button x:Name="Justificado_2" Content="Justificado" Margin="639,269,442,402" RenderTransformOrigin="0.5,0.5" Background="#FF74BAD8" FontSize="16" FontWeight="Bold" Click="Justificado2_Click" BorderBrush="{x:Null}" Foreground="White"></Button>
         <Button x:Name="Justificado_1" Content="Justificado" Margin="638,169,442,504" Background="#FF74BAD8" BorderBrush="{x:Null}" FontSize="16" FontWeight="Bold" Click="Justificado1_Click" Foreground="White"/>
-        <Button x:Name="Presente_2" Content="Presente" Margin="483,271,604,404" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="Presente_2" Content="Presente" Margin="483,271,604,404" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Presente_2_Click"/>
         <Button x:Name="Ausencia_1" Content="Ausente" RenderTransformOrigin="0.5,0.5" Margin="799,169,281,504" Click="Ausente1_Click" FontSize="16" FontWeight="Bold" Background="#FF7F2020" BorderBrush="{x:Null}" Foreground="White"></Button>
-        <Button x:Name="Presente_1" Content="Presente" Margin="483,169,604,504" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Presente_1_Click_1"/>
+        <Button x:Name="Presente_1" Content="Presente" Margin="483,169,604,504" FontSize="16" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="Presente_1_Click"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="1064,658,0,0" VerticalAlignment="Top" Height="29" Width="102" FontFamily="Tw Cen MT" FontSize="20" Click="Button_Salir"/>
         <Ellipse x:Name="Estado_de_asistencia1" HorizontalAlignment="Left" Height="45" Margin="1064,169,0,0" VerticalAlignment="Top" Width="47" Fill="#FF6CA93C"/>
         <Ellipse x:Name="Estado_de_asistencia2" HorizontalAlignment="Left" Height="45" Margin="1064,268,0,0" VerticalAlignment="Top" Width="47" Fill="#FF6CA93C"/>

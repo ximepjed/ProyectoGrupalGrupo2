@@ -54,5 +54,13 @@ namespace ProyectoGrupalGrupo2
         {//salida de la app
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Clase_botonBD(object sender, RoutedEventArgs e)
+        {
+            //boton individual del lado izquierdo BD
+            Curso_individual2 Curso2 = new Curso_individual2();
+            this.Close();
+            Curso2.Show();
+        }
     }
 }

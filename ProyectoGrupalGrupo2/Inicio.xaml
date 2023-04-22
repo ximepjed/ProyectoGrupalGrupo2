@@ -84,6 +84,8 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+        <Rectangle HorizontalAlignment="Left" Height="43" Margin="26,453,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
+        <Button Content="Base de Datos &#xA;1C2023-167001" Click="Clase_botonBD" HorizontalAlignment="Left" Height="42" Margin="23,453,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>
 
     </Grid>
 </Window>
