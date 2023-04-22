@@ -208,5 +208,10 @@ namespace ProyectoGrupalGrupo2
             this.Close();
             curso_individual.Show();
         }
+
+        private void Presente_1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
