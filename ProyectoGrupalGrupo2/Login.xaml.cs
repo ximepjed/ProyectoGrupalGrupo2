@@ -47,7 +47,14 @@ namespace ProyectoGrupalGrupo2
                 this.Close();
                 inicio.Show();
             }
-            if (txtUsuario.Text == "0" && passwordLogin.Password == "0")
+
+            else if (txtUsuario.Text == "0" && passwordLogin.Password == "0")
+            {
+                Inicio inicio = new Inicio();
+                this.Close();
+                inicio.Show();
+            }
+            else if (txtUsuario.Text == "1" && passwordLogin.Password == "1")
             {
                 Inicio inicio = new Inicio();
                 this.Close();
