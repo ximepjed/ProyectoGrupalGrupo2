@@ -102,9 +102,15 @@ namespace ProyectoGrupalGrupo2
                     if (pos > Datos.Count) { MessageBox.Show("Digite un número válido."); }
                     Datos.RemoveAt(pos - 1); //Elimina la posicion elegida por el usuario
                     txt_eliminar.Clear(); //Vacia el textbox de eliminar
+                    
                 }
-                else { MessageBox.Show("Digite un número válido."); }
-            }catch { }
+                else 
+                { 
+                    MessageBox.Show("Digite un número válido.");
+                    txt_eliminar.Clear();
+                }
+            }
+            catch { }
          }
 
         private void nombre_tarea_TextChanged(object sender, TextChangedEventArgs e)
@@ -135,6 +141,11 @@ namespace ProyectoGrupalGrupo2
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void lb_Tareas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

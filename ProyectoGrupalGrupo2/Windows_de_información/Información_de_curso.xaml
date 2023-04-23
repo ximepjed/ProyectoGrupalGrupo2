@@ -45,7 +45,7 @@
         </Rectangle>
         <Rectangle HorizontalAlignment="Center" Height="131" Margin="0,211,0,0" VerticalAlignment="Top" Width="420" RadiusX="20" RadiusY="20" Fill="White" Opacity="0.4"/>
         <Label Content="Información sobre el curso" HorizontalAlignment="Center" Height="57" VerticalAlignment="Top" Width="510" FontFamily="Tw Cen MT" FontSize="48" Foreground="White" FontWeight="Medium" RenderTransformOrigin="0.613,0.617" Margin="0,139,0,0"/>
-        <Label Content="En este curso, los estudiantes obtendrán las destrezas para &#xA;programar algoritmosmantenibles, en el sentido de que son&#xA;robustos, flexibles y reutilizables. Se aplica técnicas y patrones &#xA;para lograr un código fuente fácil de entender, de probar y de &#xA;cambiar." HorizontalAlignment="Center" Height="101" Margin="0,226,0,0" VerticalAlignment="Top" Width="396" FontSize="14" Foreground="Black"/>
+        <Label Content="En este curso, los estudiantes obtendrán las destrezas para &#xA;programar algoritmos mantenibles, en el sentido de que son&#xA;robustos, flexibles y reutilizables. Se aplica técnicas y patrones &#xA;para lograr un código fuente fácil de entender, de probar y de &#xA;cambiar." HorizontalAlignment="Center" Height="101" Margin="0,226,0,0" VerticalAlignment="Top" Width="396" FontSize="14" Foreground="Black"/>
         <Image HorizontalAlignment="Left" Height="106" Margin="484,309,0,0" VerticalAlignment="Top" Width="99" Source="/Imágenes_proyecto/monitor.png"/>
 
     </Grid>
