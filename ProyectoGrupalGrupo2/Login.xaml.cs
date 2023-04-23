@@ -54,12 +54,6 @@ namespace ProyectoGrupalGrupo2
                 this.Close();
                 inicio.Show();
             }
-            else if (txtUsuario.Text == "1" && passwordLogin.Password == "1")
-            {
-                Inicio inicio = new Inicio();
-                this.Close();
-                inicio.Show();
-            }
             else
             {
                 //window para errores de credenciales
