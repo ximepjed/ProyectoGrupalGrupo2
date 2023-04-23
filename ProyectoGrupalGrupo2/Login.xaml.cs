@@ -39,26 +39,25 @@ namespace ProyectoGrupalGrupo2
 
         private void Button_inicio(object sender, RoutedEventArgs e)
         {
-            //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
-            if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
-            {
-                //ventana inicio
-                Inicio inicio = new Inicio();
-                this.Close();
-                inicio.Show();
-            }
             if (txtUsuario.Text == "0" && passwordLogin.Password == "0")
             {
                 Inicio inicio = new Inicio();
                 this.Close();
                 inicio.Show();
             }
+            //if para la el acceso a whiteboard, recordemos que es la administracion (nosotros) los que otorgamos correos y passwords
+            else if (txtUsuario.Text == "cgarciac534@ulacit.ed.cr" && passwordLogin.Password == "cgarciac")
+            {
+                //ventana inicio
+                Inicio inicio = new Inicio();
+                this.Close();
+                inicio.Show();
+            }
+            
             else
             {
                 //window para errores de credenciales
                 Error_de_credenciales credenciales_error = new Error_de_credenciales();
-
-                credenciales_error.Owner = this;
                 credenciales_error.Show();
             }
         }
