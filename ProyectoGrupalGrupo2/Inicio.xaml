@@ -45,6 +45,13 @@
         <Image HorizontalAlignment="Left" Height="44" Margin="80,617,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/log-out.png" RenderTransformOrigin="0.562,0.156"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="80,317,0,0" VerticalAlignment="Top" Width="51" Source="/Imágenes_proyecto/notes.png" RenderTransformOrigin="0.562,0.156" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="742,161,0,0" VerticalAlignment="Top" Width="314" Fill="White" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="134" Margin="760,174,0,0" VerticalAlignment="Top" Width="278" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="25" RadiusY="28">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Imágenes_proyecto/progra1.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="372,111,0,0" Stroke="White" VerticalAlignment="Top" Width="740" Fill="White" RenderTransformOrigin="0.5,1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -62,6 +69,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label Content="1C2023-164008G2" HorizontalAlignment="Left" Height="34" Margin="550,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
+        <Label Content="1C2023-167001G2" HorizontalAlignment="Left" Height="34" Margin="930,280,0,0" VerticalAlignment="Top" Width="136" FontSize="11" Foreground="White"/>
         <Button Content="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Diseño de Aplicaciones de Software" HorizontalAlignment="Left" ButtonBase.Click="Clase_cuadro" Height="177" Margin="372,161,0,0" VerticalAlignment="Top" Width="314" Background="{x:Null}" Foreground="#FF2B1235" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed" Grid.RowSpan="2"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="73,252,0,0" VerticalAlignment="Top" Width="48" Source="/Imágenes_proyecto/user.png" RenderTransformOrigin="0.562,0.156">
             <Image.RenderTransform>
@@ -86,6 +94,12 @@
         </Image>
         <Rectangle HorizontalAlignment="Left" Height="43" Margin="26,453,0,0" VerticalAlignment="Top" Width="280" Fill="#FFDDC8E6" UseLayoutRounding="True" StrokeThickness="5" StrokeDashCap="Round" RadiusX="20" RadiusY="20"/>
         <Button Content="Base de Datos &#xA;1C2023-167001" Click="Clase_botonBD" HorizontalAlignment="Left" Height="42" Margin="23,453,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" FontStretch="ExtraCondensed"/>
+        <Button Content="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Base de Datos" HorizontalAlignment="Left" Click="Clase_cuadro2" Height="177" Margin="742,161,0,0" VerticalAlignment="Top" Width="314" Foreground="#FF2B1235" BorderBrush="{x:Null}" FontSize="16" FontStretch="ExtraCondensed">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
 
     </Grid>
 </Window>

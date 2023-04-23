@@ -62,5 +62,14 @@ namespace ProyectoGrupalGrupo2
             this.Close();
             Curso2.Show();
         }
+
+        private void Clase_cuadro2(object sender, RoutedEventArgs e)
+        {
+            //boton individual del lado izquierdo BD
+            Curso_individual2 Curso2 = new Curso_individual2();
+            this.Close();
+            Curso2.Show();
+
+        }
     }
 }
